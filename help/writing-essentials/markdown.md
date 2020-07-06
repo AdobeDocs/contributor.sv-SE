@@ -5,7 +5,10 @@ seo-title: Använda Markdown för att skriva Adobe-dokumentation
 description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
 seo-description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 1%
 
 ---
 
@@ -105,6 +108,7 @@ Du kan även bädda in listor i listor och lägga till innehåll mellan listobje
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ Visas:
    >[!NOTE]
    >
    >Det här är anteckningstext.
+
 1. Gör ett steg till.
 
 ### Tabeller
@@ -275,22 +280,26 @@ I allmänhet bör anteckningsblock användas sparsamt eftersom de kan vara stör
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 Visas:
 
 >[!NOTE]
+>
 >Det här är ett vanligt NOTE-block.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 Visas:
 
 >[!TIP]
+>
 >Det här är ett standardtips.
 
 ### Videor
@@ -318,8 +327,8 @@ Komponenten &quot;More Like This&quot; i AEM visas i slutet av en artikel. Här 
 Visas:
 
 >[!MORELIKETHIS]
->* [Artikel 1](https://helpx.adobe.com/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
+>* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 
 ### DNL - lokalisera inte - och UICONTROL
