@@ -6,7 +6,10 @@ description: Stega igenom processen med att konfigurera konton för GitHub, som 
 seo-description: Stega igenom processen med att konfigurera konton för GitHub, som krävs för att bidra med innehåll till Adobe-dokumentationen.
 index: true
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
 
