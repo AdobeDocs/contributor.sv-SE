@@ -5,7 +5,10 @@ seo-title: Arbetsflöde för GitHub-bidrag för större ändringar i Adobe-dokum
 description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 seo-description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: cb9e20da64bb04a2b1765338b237825cae7aabeb
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 0%
 
 ---
 
@@ -45,18 +48,19 @@ I det här arbetsflödet flyter ändringarna i en repetitiv cykel. Med början f
 
 ### Använd GitHub-flöde
 
-Återkalla från [Git och GitHub grundläggande](git-fundamentals.md) information om att en Git-databas innehåller en huvudgren, plus eventuella ytterligare pågående grenar som inte har integrerats i huvudgrenen. När du lägger till en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera ändringarna i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som du kan iterera genom/förfina ändringar tills de kan integreras tillbaka i huvudgrenen.
+Återkalla från [Git och GitHub grundläggande](git-fundamentals.md) information om att en Git-databas innehåller en överordnad gren, plus eventuella ytterligare pågående grenar som inte har integrerats i överordnad. När du lägger till en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera ändringarna i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som itererar/finjusterar ändringar tills de kan integreras i den överordnad grenen igen.
 
 Genom att isolera relaterade ändringar i en viss gren kan ni styra och införa dessa ändringar oberoende av varandra och inrikta dem på en viss publiceringstid i publiceringscykeln. I verkligheten kan du, beroende på vilken typ av arbete du utför, enkelt få flera arbetsgrenar i databasen. Det är inte ovanligt att arbeta med flera grenar samtidigt, där var och en representerar ett annat projekt.
 
 >[!NOTE]
->Att göra ändringar i huvudgrenen *är ingen bra rutin*. Föreställ dig att du använder huvudgrenen för att införa en uppsättning ändringar för en tidsbestämd funktionsrelease. Du slutför ändringarna och väntar på att släppa dem. Under tiden har du en brådskande begäran om att åtgärda något, så du gör ändringen i en fil i huvudgrenen och sedan publicerar ändringen. I det här exemplet publicerar du oavsiktligt både korrigeringen *och* de ändringar som du höll i för släppning på ett visst datum.
+>
+>Att göra ändringar i den överordnad grenen *är ingen bra rutin*. Föreställ dig att du använder den överordnad grenen för att införa en uppsättning ändringar för en tidsbestämd funktionsrelease. Du slutför ändringarna och väntar på att släppa dem. Under tiden har du en brådskande begäran om att åtgärda något så att du gör ändringen i en fil i den överordnad grenen och sedan publicerar ändringen. I det här exemplet publicerar du oavsiktligt både korrigeringen *och* de ändringar som du höll i för släppning på ett visst datum.
 
 Nästa steg är att skapa en ny arbetsgren i din lokala databas för att fånga upp de föreslagna ändringarna. Varje Git-klient är annorlunda, så se hjälpen för den klient du föredrar. Du kan se en översikt över processen i GitHub-guiden för [GitHub-flödet](https://guides.github.com/introduction/flow/).
 
 ## Bearbetning av begäranden
 
-Du skickar in föreslagna ändringar genom att paketera dem i en ny pull-begäran (PR) som läggs till i måldatabasens PR-kö. En pull-begäran möjliggör GitHubs samarbetsmodell genom att be om att ändringarna från din arbetsgren hämtas och sammanfogas till en annan gren. I de flesta fall är den andra grenen standard/huvudgren i huvuddatabasen.
+Du skickar in föreslagna ändringar genom att paketera dem i en ny pull-begäran (PR) som läggs till i måldatabasens PR-kö. En pull-begäran möjliggör GitHubs samarbetsmodell genom att be om att ändringarna från din arbetsgren hämtas och sammanfogas till en annan gren. I de flesta fall är den andra grenen standard/överordnad i huvuddatabasen.
 
 ### Validering
 
