@@ -4,7 +4,10 @@ seo-title: Översikt över Contributor-guiden för den tekniska dokumentationen 
 description: I guiden beskrivs hur du kan bidra med förslag och tillägg till Adobes dokumentationswebbplats.
 seo-description: I guiden beskrivs hur du kan bidra till den tekniska dokumentationen för [!UICONTROL Adobe Experience Cloud].
 translation-type: tm+mt
-source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 ## Vad är samarbetsdokumentation?
 
-Under 2019 övergår all teknisk dokumentation och allt aktiveringsinnehåll för Adobe Experience Cloud till en ny plattform, baserat på principer om öppen källkod, med hjälp av lösningar från Github, Markdown och Adobe Experience Cloud, inklusive Adobe Experience Manager, Analytics, Launch och Target.
+Under 2019 övergår all teknisk dokumentation och allt aktiveringsinnehåll för Adobe Experience Cloud till en ny plattform, baserat på principer om öppen källkod, med hjälp av lösningar från Github, Markdown och Adobe Experience Cloud, som Adobe Experience Manager, Analytics, Launch och Target.
 
-Denna modell med öppen källkod förbättrar innehållskvaliteten och kommunikationen mellan kunder, dokumentationsteam och produktteam. På varje sida kan du nu betygsätta innehållets användbarhet, logga problem och till och med lägga in förslag på innehåll i takt med att Git-förfrågningar skickas (PR). Adobes dokumentationsteam övervakar bidragen och problemen dagligen och gör uppdateringar, förbättringar och justeringar efter behov.
+Denna modell med öppen källkod förbättrar innehållskvaliteten och kommunikationen mellan kunder, dokumentationsteam och produktteam. På varje sida kan du nu betygsätta innehållets användbarhet, logga problem och till och med lägga in förslag på innehåll när Git pull-förfrågningar (PR). Adobes dokumentationsteam övervakar bidragen och problemen dagligen och gör uppdateringar, förbättringar och justeringar efter behov.
 
 ## Arbeta med samarbetsdokumentation
 
@@ -44,8 +47,9 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 1. Klicka **`Edit this page`** på den högra kolumnen för att gå till markeringskällfilen på GitHub.
 1. Klicka på pennikonen för att redigera artikeln.
 
-   > [!NOTE]
-   > Om pennikonen är nedtonad måste du logga in på ditt GitHub-konto eller skapa ett nytt konto.
+   >[!NOTE]
+   >
+   >Om pennikonen är nedtonad måste du logga in på ditt GitHub-konto eller skapa ett nytt konto.
 
    ![Placering av pennikonen](assets/edit-icon.png)
 
@@ -54,7 +58,9 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 
    ![föreslå ändringar](assets/submit-pull-request.png)
 
-   >[!NOTE] Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **Information** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
+   >[!NOTE]
+   >
+   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **Information** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
 
 Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar och sammanfogar din begäran.
 
@@ -66,8 +72,9 @@ Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll 
 
    ![](assets/git_log_issue.png)
 
-   > [!NOTE]
-   > Du måste logga in på ditt GitHub-konto, eller skapa ett nytt konto, för att kunna logga ett problem.
+   >[!NOTE]
+   >
+   >Du måste logga in på ditt GitHub-konto, eller skapa ett nytt konto, för att kunna logga ett problem.
 
    Om du klickar på den här länken kan du logga en snabbbiljett hos oss med hjälp av gränssnittet för Github Issue.
 
