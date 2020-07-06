@@ -4,7 +4,10 @@ seo-title: Konfigurera Git-databasen lokalt för Adobe-dokumentation
 description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
 seo-description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 0%
 
 ---
 
@@ -58,8 +61,9 @@ Det krävs en personlig gaffel eftersom alla huvuddokumentationsdatabaser ger sk
 
    Vissa databaser kan vara stora. Välj en plats med tillgängligt diskutrymme.
 
-   > [!NOTE]
-   > Undvik att välja en lokal mappsökväg som är kapslad i en annan Git-databasmapp. Även om det går att lagra de git-klonade mapparna intill varandra orsakar kapslade Git-mappar i varandra fel för filspårningen.
+   >[!NOTE]
+   >
+   >Undvik att välja en lokal mappsökväg som är kapslad i en annan Git-databasmapp. Även om det går att lagra de git-klonade mapparna intill varandra orsakar kapslade Git-mappar i varandra fel för filspårningen.
 
 ## Skapa en lokal klon av databasen
 
