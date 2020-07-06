@@ -5,7 +5,10 @@ seo-title: Installera Git- och GitHub-redigeringsverktygen för Adobe-dokumentat
 description: Den här artikeln hjälper dig att hämta och installera de klientverktyg du behöver för Git/GitHub och för att redigera Markdown-filer.
 seo-description: Den här artikeln hjälper dig att hämta och installera de klientverktyg du behöver för Git/GitHub och för att redigera Markdown-filer för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,8 @@ source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
 *I den här artikeln beskrivs stegen för hur du installerar Git-klientverktyg interaktivt och redigeringsverktyg.*
 
 >[!NOTE]
-> Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara göra ändringar i webbläsaren.
+>
+>Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara göra ändringar i webbläsaren.
 >
 > Stora medarbetare uppmuntras att slutföra de här stegen så att du kan använda arbetsflödet [för](local-repo.md)större ändringar. Även om du har skrivbehörighet i huvuddatabasen rekommenderar vi (och i den här handboken förutsätts) att du förser och klonar databasen så att du har läs- och skrivbehörighet för att lagra de föreslagna ändringarna i din förgrening.
 
@@ -31,7 +35,7 @@ Git-resurser finns här:
 * [Learning Git och GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Git-terminologi](https://help.github.com/articles/github-glossary)
 
-## Förstå Markdown-redigerare
+## Förstå redigeringsprogram för markeringar
 
 Markup är ett lättläst markeringsspråk som är både enkelt att läsa och lätt att lära sig. Därför har den snabbt blivit en branschstandard. Om du vill skriva artiklar i Markdown rekommenderar vi att du först hämtar och installerar en Markdown-redigerare. De vanligaste alternativen är [Visual Studio Code](https://code.visualstudio.com/), [Adobe Brackets](https://brackets.io)och [Atom](https://atom.io).
 
