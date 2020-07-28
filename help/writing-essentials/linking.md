@@ -3,9 +3,12 @@ lastModified: 2018-06-28T00:00:00Z
 title: Använda länkar i dokumentation
 seo-title: Använda länkar i Adobe Git/Markdown-dokumentation
 description: I den här artikeln finns anvisningar om hur du skapar länkar till innehåll och bilder.
-seo-description: I den här artikeln beskrivs hur du skapar länkar till innehåll och bilder för Adobe-dokumentation.
+seo-description: I den här artikeln finns anvisningar om hur du skapar länkar till innehåll och bilder för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
+source-git-commit: 73ec3b8b63769a192ee16bec2720930ea6a9aaed
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
@@ -14,8 +17,8 @@ source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 I den här artikeln beskrivs användningen av hyperlänkar på dokumentationssidor. Länkar är enkla att lägga till i markeringar med några olika konventioner. Länkar pekar användare mot innehåll på samma sida, pekar ut mot andra angränsande sidor eller pekar på externa webbplatser och URL:er.
 
-> [!IMPORTANT]
-> Alla länkar bör helst vara säkra länkar (`https` kontra `http`) när målet stöder det (vilket de flesta bör göra).
+>[!IMPORTANT]
+>Alla länkar bör helst vara säkra länkar (`https` kontra `http`) när målet stöder det (vilket de flesta bör göra).
 
 ## Länka till URL-adresser
 
