@@ -4,7 +4,7 @@ seo-title: Konfigurera Git-databasen lokalt för Adobe-dokumentation
 description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
 seo-description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 I den här artikeln beskrivs stegen för hur du konfigurerar en Git-databas på den lokala datorn, med avsikten att bidra till Adobe-dokumentationen. Medarbetare kan använda en lokalt klonad databas för att lägga till nya artiklar, göra större redigeringar av befintliga artiklar eller ändra teckningar.
 
-> [!IMPORTANT]
-> Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara klicka på ikonen Redigera och göra textredigeringar i webbläsaren.
+>[!IMPORTANT]
+>Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara klicka på ikonen Redigera och göra textredigeringar i webbläsaren.
 
 ## Översikt
 
-Om du vill bidra till Adobe-dokumentationen kan du förpacka rätt databas till ditt eget GitHub-konto så att du har läs- och skrivbehörighet. Sedan kan du skapa och redigera markeringsfiler lokalt genom att klona motsvarande dokumentationsdatabas. Sedan använder du pull-begäranden för att sammanfoga (skicka) ändringar i den skrivskyddade centrala delade databasen.
+Om du vill bidra till Adobe-dokumentationen kan du förväxla lämplig databas till ditt eget GitHub-konto så att du har läs-/skrivbehörighet. Sedan kan du skapa och redigera markeringsfiler lokalt genom att klona motsvarande dokumentationsdatabas. Sedan använder du pull-begäranden för att sammanfoga (skicka) ändringar i den skrivskyddade centrala delade databasen.
 
 * Bestäm lämplig databas
 * Formge databasen till ditt GitHub-konto
