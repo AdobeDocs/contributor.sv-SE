@@ -3,11 +3,11 @@ lastModified: 2018-06-28T00:00:00Z
 title: Använda Markdown för att skriva dokumentation
 seo-title: Använda Markdown för att skriva Adobe-dokumentation
 description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
-seo-description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar för Adobe-dokumentation.
+seo-description: I den här artikeln finns grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1329'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Använda Markdown för att skriva teknisk dokumentation
 
-Adobes tekniska dokumentationsartiklar är skrivna på ett lättviktsmarkeringsspråk som kallas [Markdown](https://daringfireball.net/projects/markdown/), som både är lätt att läsa och lätt att lära sig.
+Adobe tekniska dokumentationsartiklar är skrivna på ett lättviktsmarkeringsspråk som kallas [Markdown](https://daringfireball.net/projects/markdown/), som både är lätt att läsa och lätt att lära sig.
 
-När vi lagrar Adobe Docs-innehåll i GitHub kan den använda en version av Markdown som kallas [GitHub Flavred Markdown (GFM)](https://help.github.com/categories/writing-on-github/), som har ytterligare funktioner för vanliga formateringsbehov. Dessutom har Adobe utökat Markdown på några sätt för att stödja vissa hjälprelaterade funktioner som anteckningar, tips och inbäddade videor.
+När vi lagrar Adobe Docs-innehåll i GitHub kan den använda en version av Markdown som kallas [GitHub Flavred Markdown (GFM)](https://help.github.com/categories/writing-on-github/), som har ytterligare funktioner för vanliga formateringsbehov. Dessutom har Adobe extended Markdown flera sätt att stödja vissa hjälprelaterade funktioner som anteckningar, tips och inbäddade videor.
 
 ## Grunderna i markeringar
 
@@ -133,7 +133,7 @@ Visas:
 
 ### Tabeller
 
-Tabeller är inte en del av den centrala Markdown-specifikationen, men Adobe stöder dem i viss utsträckning. Markering stöder inte flera rader i celler. Det bästa sättet är att undvika att använda flera rader i tabeller. Du kan skapa tabeller genom att använda vertikalstrecket (|) för att avgränsa kolumner och rader. Bindestreck skapar varje kolumns sidhuvud, medan rörledningar avgränsar varje kolumn. Inkludera en tom rad före tabellen så att den återges korrekt.
+Tabeller ingår inte i den centrala markeringsspecifikationen, men Adobe stöder dem i viss utsträckning. Markering stöder inte flera rader i celler. Det bästa sättet är att undvika att använda flera rader i tabeller. Du kan skapa tabeller genom att använda vertikalstrecket (|) för att avgränsa kolumner och rader. Bindestreck skapar varje kolumns sidhuvud, medan rörledningar avgränsar varje kolumn. Inkludera en tom rad före tabellen så att den återges korrekt.
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -221,11 +221,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-Du kan ange egenskaper för kodblock om du vill inaktivera radnummer (som standard) eller lägga till radbrytningar (som standard inaktiverat). Använd {line-numbers=&quot;no&quot;} och {line-wrap=&quot;yes&quot;}. Dessa egenskaper är anpassade Markdown-tillägg.
-
-\`\`\`javascript {line-numbers=&quot;no&quot;}function test() {console.log(&quot;notice the blank line before this function?&quot;);
-\`\`\`
-
 ### Definitionslistor
 
 En definitionslista är ett markeringstillägg som har stöd för definitionslistekomponenten i AEM. En definitionslista består av en term och dess definition.
@@ -255,7 +250,7 @@ Kommentarer (kommentarer) visas inte i de offentliga hjälpartiklarna. Kommentar
 
 ## Anpassade markeringstillägg
 
-I Adobe-artiklar används standardmarkering för de flesta artikelformat, t.ex. stycken, länkar, listor och rubriker. För mer omfattande formatering kan artiklar använda utökade markeringsfunktioner som:
+I Adobe-artiklar används standardmarkering för de flesta artikelformat, som stycken, länkar, listor och rubriker. För mer omfattande formatering kan artiklar använda utökade markeringsfunktioner som:
 
 * Anteckningsblock
 * Inbäddade videoklipp
@@ -316,7 +311,7 @@ Visas:
 
 ### Mer som detta
 
-Komponenten &quot;More Like This&quot; i AEM visas i slutet av en artikel. Här visas relaterade länkar. När artikeln återges kan den formateras på samma sätt som rubriker på nivå 2 (##) utan att läggas till i miniinnehållsförteckningen.
+Komponenten &quot;Mer som den här&quot; i AEM visas i slutet av en artikel. Här visas relaterade länkar. När artikeln återges kan den formateras på samma sätt som rubriker på nivå 2 (##) utan att läggas till i miniinnehållsförteckningen.
 
 ```markdown
 >[!MORELIKETHIS]
