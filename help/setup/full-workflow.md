@@ -1,11 +1,11 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Arbetsflöde för GitHub-bidrag för större ändringar
-seo-title: Arbetsflöde för GitHub-bidrag för större ändringar i Adobe-dokumentationen
+seo-title: Arbetsflöde för GitHub-bidrag för större ändringar av dokumentationen för Adobe
 description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 seo-description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 # Arbetsflöde för GitHub-bidrag för större ändringar
 
 <!--
-> [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
+>[!IMPORTANT]
+>All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 --->
@@ -48,7 +48,7 @@ I det här arbetsflödet flyter ändringarna i en repetitiv cykel. Med början f
 
 ### Använd GitHub-flöde
 
-Återkalla från [Git och GitHub grundläggande](git-fundamentals.md) information om att en Git-databas innehåller en överordnad gren, plus eventuella ytterligare pågående grenar som inte har integrerats i överordnad. När du lägger till en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera ändringarna i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som itererar/finjusterar ändringar tills de kan integreras i den överordnad grenen igen.
+Återkalla från [Git och GitHub grundläggande](git-fundamentals.md) information om att en Git-databas innehåller en överordnad gren, plus eventuella ytterligare pågående grenar som inte har integrerats i en överordnad. När du lägger till en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera ändringarna i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som itererar/finjusterar ändringar tills de kan integreras i den överordnad grenen igen.
 
 Genom att isolera relaterade ändringar i en viss gren kan ni styra och införa dessa ändringar oberoende av varandra och inrikta dem på en viss publiceringstid i publiceringscykeln. I verkligheten kan du, beroende på vilken typ av arbete du utför, enkelt få flera arbetsgrenar i databasen. Det är inte ovanligt att arbeta med flera grenar samtidigt, där var och en representerar ett annat projekt.
 
