@@ -5,9 +5,9 @@ seo-title: Använda Markdown för att skriva Adobe-dokumentation
 description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
 seo-description: I den här artikeln finns grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1322'
 ht-degree: 1%
 
 ---
@@ -302,12 +302,12 @@ Visas:
 Inbäddade videofilmer återges inte direkt i Markdown, men du kan använda det här Markdown-tillägget.
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 Visas:
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### Mer som detta
 
