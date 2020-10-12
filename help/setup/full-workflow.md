@@ -5,9 +5,9 @@ seo-title: Arbetsflöde för GitHub-bidrag för större ändringar av dokumentat
 description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 seo-description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
+source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -75,5 +75,3 @@ När pull-begäran är problemfri och signerad sammanfogas dina ändringar i den
 ### Publicering
 
 Kom ihåg att din pull-begäran måste sammanfogas av en PR-granskare innan ändringarna kan inkluderas i nästa schemalagda publiceringskörning. Dragningsbegäranden granskas/sammanfogas normalt i den ordning som de skickas in. Om din pull-begäran kräver sammanslagning för en viss publiceringskörning måste du arbeta med din PR-granskare i förväg för att säkerställa att sammanslagningen sker före publiceringen.
-
-När dina bidrag har godkänts och sammanfogats hämtar publiceringsprocessen docs.microsoft.com upp dem. Beroende på vilket team som hanterar den databas du bidrar till kan publiceringstiden variera.
