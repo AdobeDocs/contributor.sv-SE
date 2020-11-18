@@ -4,9 +4,9 @@ seo-title: Översikt över Contributor-guiden för Adobe Experience Cloud teknis
 description: I guiden beskrivs hur du kan bidra med förslag och tillägg till dokumentationswebbplatsen för Adobe.
 seo-description: I guiden beskrivs hur du kan bidra till den [!UICONTROL Adobe Experience Cloud] tekniska dokumentationen.
 translation-type: tm+mt
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
+source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,10 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 1. Underteckna [Contributor-licensavtalet (CLA)](http://opensource.adobe.com/cla.html) om det går.
 
    Du behöver bara skicka ett Adobe CLA en gång.
-1. Klicka **`Edit this page`** på den högra kolumnen för att gå till markeringskällfilen på GitHub.
+1. Klicka på **`Edit this page`** ikonen i den högra kolumnen för att gå till markeringskällfilen på GitHub.
+
+   ![Redigera den här sidikonen](/help/assets/git_edit.png)
+
 1. Klicka på pennikonen för att redigera artikeln.
 
    >[!NOTE]
@@ -68,13 +71,13 @@ Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar 
 
 Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att logga ett problem.
 
-1. Om du får problem med en del av innehållet klickar du på `Log an Issue` länken längst ned till höger på en sida. Se bilden nedan:
+1. Om du ser ett problem med en del av innehållet klickar du på **`Log an Issue`** ikonen i den högra kolumnen.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >Du måste logga in på ditt GitHub-konto, eller skapa ett nytt konto, för att kunna logga ett problem.
+   >Du måste logga in på ditt GitHub-konto eller skapa ett nytt konto för att kunna logga in på ett problem.
 
    Om du klickar på den här länken kan du logga en snabbbiljett hos oss med hjälp av gränssnittet för Github Issue.
 
