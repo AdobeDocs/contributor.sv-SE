@@ -1,13 +1,10 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: Arbetsflöde för GitHub-bidrag för större ändringar
-seo-title: Arbetsflöde för GitHub-bidrag för större ändringar av dokumentationen för Adobe
 description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
-seo-description: I den här artikeln beskrivs hur du använder arbetsflödet"huvudmedverkande" för att göra bidrag till Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -42,21 +39,21 @@ Om du inte känner till Git- och GitHub-koncept som en databas eller en gren bö
 ## Arbetsflöde
 
 >[!IMPORTANT]
-> Om du inte redan gjort det måste du slutföra stegen i [installationsavsnittet](github-signup.md) .
+> Om du inte redan gjort det måste du slutföra stegen i [Setup](github-signup.md)-avsnittet.
 
 I det här arbetsflödet flyter ändringarna i en repetitiv cykel. Med början från enhetens lokala databas flödar de tillbaka till GitHub-gaffeln, in i GitHub-huvuddatabasen och tillbaka lokalt igen när du lägger in ändringar från andra medverkande.
 
 ### Använd GitHub-flöde
 
-Återkalla från [Git och GitHub grundläggande](git-fundamentals.md) information om att en Git-databas innehåller en överordnad gren, plus eventuella ytterligare pågående grenar som inte har integrerats i en överordnad. När du lägger till en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera ändringarna i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som itererar/finjusterar ändringar tills de kan integreras i den överordnad grenen igen.
+Kom ihåg från [Git- och GitHub-grunder](git-fundamentals.md) att en Git-databas innehåller en överordnad gren, plus eventuella ytterligare pågående grenar som inte har integrerats i en överordnad. När du introducerar en uppsättning logiskt relaterade ändringar är det en god vana att skapa en *arbetsgren* för att hantera dina ändringar i arbetsflödet. Vi kallar det här en arbetsgren eftersom det är en arbetsyta som itererar/finjusterar ändringar tills de kan integreras i den överordnad grenen igen.
 
 Genom att isolera relaterade ändringar i en viss gren kan ni styra och införa dessa ändringar oberoende av varandra och inrikta dem på en viss publiceringstid i publiceringscykeln. I verkligheten kan du, beroende på vilken typ av arbete du utför, enkelt få flera arbetsgrenar i databasen. Det är inte ovanligt att arbeta med flera grenar samtidigt, där var och en representerar ett annat projekt.
 
 >[!NOTE]
 >
->Att göra ändringar i den överordnad grenen *är ingen bra rutin*. Föreställ dig att du använder den överordnad grenen för att införa en uppsättning ändringar för en tidsbestämd funktionsrelease. Du slutför ändringarna och väntar på att släppa dem. Under tiden har du en brådskande begäran om att åtgärda något så att du gör ändringen i en fil i den överordnad grenen och sedan publicerar ändringen. I det här exemplet publicerar du oavsiktligt både korrigeringen *och* de ändringar som du höll i för släppning på ett visst datum.
+>Att göra ändringar i den överordnad grenen *är inte en god vana*. Föreställ dig att du använder den överordnad grenen för att införa en uppsättning ändringar för en tidsbestämd funktionsrelease. Du slutför ändringarna och väntar på att släppa dem. Under tiden har du en brådskande begäran om att åtgärda något så att du gör ändringen i en fil i den överordnad grenen och sedan publicerar ändringen. I det här exemplet publicerar du av misstag både korrigeringen *och* de ändringar som du höll kvar för att släppas på ett visst datum.
 
-Nästa steg är att skapa en ny arbetsgren i din lokala databas för att fånga upp de föreslagna ändringarna. Varje Git-klient är annorlunda, så se hjälpen för den klient du föredrar. Du kan se en översikt över processen i GitHub-guiden för [GitHub-flödet](https://guides.github.com/introduction/flow/).
+Nästa steg är att skapa en ny arbetsgren i din lokala databas för att fånga upp de föreslagna ändringarna. Varje Git-klient är annorlunda, så se hjälpen för den klient du föredrar. Du kan se en översikt över processen i GitHub-guiden på [GitHub-flöde](https://guides.github.com/introduction/flow/).
 
 ## Bearbetning av begäranden
 
