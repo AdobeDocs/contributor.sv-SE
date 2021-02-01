@@ -1,10 +1,11 @@
 ---
 title: Grundläggande om dokumentation för Git och GitHub
-seo-title: Grundläggande om dokumentation för Git och GitHub
 description: I den här artikeln förklaras en översikt över Git-, GitHub-databasen och hur innehåll är organiserat samt namnkonventioner som används för Adobe-dokumentation.
-seo-description: I den här artikeln förklaras en översikt över Git, github-databasen och hur innehållet är organiserat samt namnkonventioner som används för Adobe-dokumentation.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -13,13 +14,13 @@ source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
 
 ## Översikt
 
-Om du bara behöver göra mindre ändringar i artiklar som bara innehåller text behöver du inte förstå informationen i den här artikeln. I den här artikeln beskrivs arbetsflödet för att göra större redigeringar, som att skapa nya artiklar, lägga till bilder eller göra pågående redigeringar i Adobe-dokumentationen.
+Om du bara behöver göra mindre ändringar i artiklar som bara innehåller text behöver du inte förstå detaljerna i den här artikeln. I den här artikeln beskrivs arbetsflödet för att göra större redigeringar, till exempel skapa nya artiklar, lägga till bilder eller göra pågående redigeringar i Adobe-dokumentationen.
 
-Som medarbetare på Adobe-dokumentationsmaterial kan du interagera med flera verktyg och processer. Du kan arbeta parallellt med andra medarbetare i samma projekt, eventuellt med exakt samma innehåll, även samtidigt. Allt detta aktiveras via Git och GitHub.
+Som medverkande på dokumentationsmaterial från Adobe kan du interagera med flera verktyg och processer. Du kan arbeta parallellt med andra medarbetare i samma projekt, eventuellt med exakt samma innehåll, även samtidigt. Allt detta aktiveras via Git och GitHub.
 
 Git är ett versionshanteringssystem med öppen källkod som möjliggör samarbete. Flera medarbetare kan arbeta med filer som finns i *databaser*.
 
-GitHub är en webbaserad värdtjänst för Git-databaser, till exempel sådana som används för att lagra [docs.adobe.com](https://docs.adobe.com) -innehåll. För alla projekt är GitHub värd för huvuddatabasen, där medarbetare kan göra kopior för eget arbete.
+GitHub är en webbaserad värdtjänst för Git-databaser, till exempel sådana som används för att lagra [docs.adobe.com](https://docs.adobe.com)-innehåll. För alla projekt är GitHub värd för huvuddatabasen, där medarbetare kan göra kopior för eget arbete.
 
 ## Git
 
@@ -27,8 +28,8 @@ Git har ett unikt arbetsflöde och en unik terminologi för bidrag som stöder d
 
 Git använder också en nivåindelad struktur för att lagra och hantera innehåll för ett projekt:
 
-- *Databas*: Det här är också en *repo* som är den högsta lagringsenheten. En databas innehåller en eller flera grenar.
-- *Förgrening*: Alla databaser innehåller en standardförgrening (vanligtvis kallad&quot;master&quot;) och en eller flera förgreningar som ska sammanfogas till huvudgrenen. Huvudgrenen fungerar som den aktuella versionen och källan som innehållet publiceras från. Det är det överordnade objekt som alla andra grenar i databasen skapas från.
+- *Databas*: Det här är också en  *repo* som är den högsta lagringsenheten. En databas innehåller en eller flera grenar.
+- *Förgrening*: Alla databaser innehåller en standardförgrening (vanligtvis kallad&quot;överordnad&quot;) och en eller flera förgreningar som ska sammanfogas till den överordnad förgreningen. Den överordnad grenen fungerar som den aktuella versionen och källan som innehållet publiceras från. Det är det överordnade objekt som alla andra grenar i databasen skapas från.
 
 Medarbetare interagerar med Git för att uppdatera och ändra databaser på både lokal nivå och GitHub-nivå:
 
@@ -41,9 +42,9 @@ Alla arbetsflöden börjar och slutar på GitHub-nivå, där huvuddatabasen för
 
 ### Katalogorganisation
 
-Ett projekts standard-/huvudgren fungerar som den aktuella versionen av innehållet för projektet. Innehållet i huvudgrenen - och grenar som skapas utifrån det - är anpassat till artikelämnesstrukturen. Underkataloger används för att ordna innehåll och bildresurser.
+Ett projekts standardgren/överordnad gren fungerar som den aktuella versionen av projektinnehåll. Innehållet i den överordnad grenen - och grenar som skapats utifrån den - är anpassat till artikelämnesstrukturen. Underkataloger används för att ordna innehåll och bildresurser.
 
-Du kan oftast hitta en `help` huvudkatalog i databasens rot. Artikelkatalogen innehåller en uppsättning underkataloger. Artiklar i underkatalogerna formateras som markeringsfiler som använder tillägget *.md* .
+Du kan vanligtvis hitta en huvudkatalog för `help` från databasens rot. Artikelkatalogen innehåller en uppsättning underkataloger. Artiklar i underkatalogerna formateras som markeringsfiler som använder ett *.md*-tillägg.
 
 I den här katalogens rot finns allmänna artiklar som relaterar till den övergripande tjänsten eller produkten. Och vanligtvis kan du hitta ytterligare en serie underkataloger som matchar funktionerna/tjänsterna eller vanliga scenarier.
 
@@ -65,6 +66,6 @@ For convenience, the root directory of each repository typically contains a Mark
 
 ## Dra in begäranden
 
-En *pull-begäran* är ett bekvämt sätt för en medarbetare att föreslå en uppsättning ändringar som ska tillämpas på standardgrenen. Ändringarna (kallas även *implementeringar*) lagras i en medarbetares gren, så GitHub kan först modellera effekten av att *sammanfoga* dem till standardgrenen. En pull-begäran fungerar också som en mekanism för att ge medarbetaren feedback från en bygg-/valideringsprocess, granskaren av pull-begäran, för att lösa potentiella problem eller frågor innan ändringarna sammanfogas i standardgrenen.
+En *pull-begäran* är ett bekvämt sätt för en medarbetare att föreslå en uppsättning ändringar som ska tillämpas på standardgrenen. Ändringarna (kallas även *implementeringar*) lagras i en medarbetares gren, så GitHub kan först modellera effekten av *sammanslagning* till standardgrenen. En pull-begäran fungerar också som en mekanism för att ge medarbetaren feedback från en bygg-/valideringsprocess, granskaren av pull-begäran, för att lösa potentiella problem eller frågor innan ändringarna sammanfogas i standardgrenen.
 
-Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi kommer att gå igenom detta i detalj senare i [GitHub-arbetsflödesavsnittet](local-repo.md) i den här handboken.
+Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi kommer att gå igenom detta i detalj senare, i avsnittet [GitHub-arbetsflöde](local-repo.md) i den här handboken.
