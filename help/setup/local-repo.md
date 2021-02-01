@@ -1,12 +1,10 @@
 ---
 title: Konfigurera Git-databas lokalt
-seo-title: Konfigurera Git-databasen lokalt för Adobe-dokumentation
 description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
-seo-description: I den här artikeln finns anvisningar om hur du skapar din lokala Git-databas och bidrar till Adobe-dokumentationen, inklusive förgrening och kloning.
 translation-type: tm+mt
-source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 I den här artikeln beskrivs stegen för hur du konfigurerar en Git-databas på den lokala datorn, med avsikten att bidra till Adobe-dokumentationen. Medarbetare kan använda en lokalt klonad databas för att lägga till nya artiklar, göra större redigeringar av befintliga artiklar eller ändra teckningar.
 
 >[!IMPORTANT]
->Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara klicka på ikonen Redigera och göra textredigeringar i webbläsaren.
+>Om du endast gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan bara klicka på ikonen Redigera och göra textredigeringar i webbläsaren.
 
 ## Översikt
 
@@ -31,9 +29,9 @@ Om du vill bidra till Adobe-dokumentationen kan du förväxla lämplig databas t
 
 ## Bestämma databasen
 
-Du förser lämplig databas med ditt eget GitHub-konto så att du har läs- och skrivbehörighet där för att lagra dina föreslagna ändringar. [!UICONTROL Adobe Experience Cloud] dokumentation finns i flera olika databaser på [github.com](https://www.github.com/adobedocs).
+Du förser lämplig databas med ditt eget GitHub-konto så att du har läs- och skrivbehörighet där för att lagra dina föreslagna ändringar. [!UICONTROL Adobe Experience Cloud] dokumentation finns i flera olika databaser på  [github.com](https://www.github.com/adobedocs).
 
-1. Om du är osäker på vilken databas du ska använda kan du gå till artikeln via webbläsaren. Välj länken **Redigera** (pennikonen) i artikelns övre högra hörn. (Om du inte ser någon Redigera-länk är innehållet ännu inte tillgängligt i GitHub.)
+1. Om du är osäker på vilken databas du ska använda kan du gå till artikeln via webbläsaren. Välj länken **Redigera** (pennikon) i artikelns övre högra hörn. (Om du inte ser någon Redigera-länk är innehållet ännu inte tillgängligt i GitHub.)
 
 Om du vill bidra till Adobe-dokumentationen kan du skapa och redigera markeringsfiler lokalt genom att klona motsvarande dokumentationsdatabas. Sedan använder du pull-begäranden för att sammanfoga ändringar i den skrivskyddade centrala delade databasen.
 
@@ -49,9 +47,9 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 Använd rätt databas för att skapa en bas av databasen till ditt eget GitHub-konto med hjälp av GitHub-webbplatsen.
 
-Det krävs en personlig gaffel eftersom alla huvuddokumentationsdatabaser ger skrivskyddad åtkomst, vilket innebär att du inte kan göra ändringar direkt i innehållet i databaserna. Om du vill göra ändringar måste du skicka en pull-begäran (PR) från din gaffel till huvuddatabasen. För att underlätta den här processen behöver du först en egen kopia av databasen där du har skrivbehörighet. En GitHub- *gaffel* har det syftet.
+Det krävs en personlig gaffel eftersom alla huvuddokumentationsdatabaser ger skrivskyddad åtkomst, vilket innebär att du inte kan göra ändringar direkt i innehållet i databaserna. Om du vill göra ändringar måste du skicka en pull-begäran (PR) från din gaffel till huvuddatabasen. För att underlätta den här processen behöver du först en egen kopia av databasen där du har skrivbehörighet. En GitHub *gaffel* har det syftet.
 
-1. Gå till huvuddatabasens GitHub-sida och klicka på knappen **Grupp** i det övre högra hörnet.
+1. Gå till huvuddatabasens GitHub-sida och klicka på knappen **Fork** längst upp till höger.
 
    ![GitHub-gaffel](assets/fork-simple.png)
 
@@ -63,7 +61,7 @@ Det krävs en personlig gaffel eftersom alla huvuddokumentationsdatabaser ger sk
 
    >[!NOTE]
    >
-   >Undvik att välja en lokal mappsökväg som är kapslad i en annan Git-databasmapp. Även om det går att lagra de git-klonade mapparna intill varandra orsakar kapslade Git-mappar i varandra fel för filspårningen.
+   >Undvik att välja en lokal mappsökväg som är kapslad i en annan Git-databasmapp. Det går bra att lagra de git-klonade mapparna intill varandra, men om du kapslar in Git-mappar i varandra uppstår fel i filspårningen.
 
 ## Skapa en lokal klon av databasen
 
@@ -71,10 +69,10 @@ Genom att skapa en klon av den förankrade databasen hämtar du en kopia av file
 
 I de här stegen antas du använda GitHub Desktop. Om du använder en annan klient gör du lämpliga justeringar.
 
-1. Klicka på **Klona eller hämta** och välj sedan **Öppna på skrivbordet** för att hämta en kopia av databasen (din förgrening) till datorn i den aktuella katalogen.
+1. Klicka på **Klona eller hämta** och välj sedan **Öppna i skrivbordet** för att hämta en kopia av databasen (din gaffel) till datorn i den aktuella katalogen.
 
   ![Klonrepo](assets/clone-pulldown.png)
 
 1. Använd GitHub Desktop för att synkronisera de lokala filerna med den kopplade databasen.
 
-Mer information finns i [dokumentationen](https://help.github.com/desktop/)för GitHub-skrivbordet.
+Mer information finns i [Skrivbordsdokumentation för GitHub](https://help.github.com/desktop/).
