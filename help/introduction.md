@@ -2,11 +2,11 @@
 title: Contributor guide for Adobe documentation
 seo-title: Översikt över Contributor-guiden för Adobe Experience Cloud tekniska dokumentation
 description: I guiden beskrivs hur du kan bidra med förslag och tillägg till dokumentationswebbplatsen för Adobe.
-seo-description: I guiden beskrivs hur du kan bidra till den [!UICONTROL Adobe Experience Cloud] tekniska dokumentationen.
+seo-description: I guiden beskrivs hur du kan bidra till den tekniska dokumentationen för [!UICONTROL Adobe Experience Cloud].
 translation-type: tm+mt
-source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Vad är samarbetsdokumentation?
 
-Under 2019 har all teknisk dokumentation och allt aktiveringsinnehåll för Adobe Experience Cloud övergått till en ny plattform som bygger på principer med öppen källkod och använder lösningar från Github, Markdown och Adobe Experience Cloud, inklusive Adobe Experience Manager, Analytics, Launch och Target.
+Den tekniska dokumentationen och aktiveringsinnehållet för Adobe Experience Cloud och andra Adobe Enterprise-produkter har gått över till en ny plattform. Den nya plattformen bygger på principer med öppen källkod som bygger på lösningarna Github, Markdown och Adobe Experience Cloud.
 
 Denna modell med öppen källkod förbättrar innehållskvaliteten och kommunikationen mellan kunder, dokumentationsteam och produktteam. På varje sida kan du nu betygsätta innehållets användbarhet, logga problem och till och med lägga in förslag på innehåll i takt med att Git-förfrågningar skickas (PR). Dokumentationsteamen i Adobe övervakar dagligen bidragen och problemen och gör uppdateringar, förbättringar och justeringar efter behov.
 
@@ -41,10 +41,10 @@ Den här guiden innehåller allt du behöver veta för att interagera med och bi
 
 Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utelämnanden i dokument. Om en artikel visar en redigeringsknapp som visas nedan kan du göra en snabbkorrigering själv. När du redigerar dokumentet skickar du en pull-begäran (PR) för att skicka korrigeringen/förslaget till oss, och vi kan granska, godkänna och publicera förslaget.
 
-1. Underteckna [Contributor-licensavtalet (CLA)](http://opensource.adobe.com/cla.html) om det går.
+1. Signera [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) om det är godtagbart.
 
    Du behöver bara skicka ett Adobe CLA en gång.
-1. Klicka på **`Edit this page`** ikonen i den högra kolumnen för att gå till markeringskällfilen på GitHub.
+1. Klicka på ikonen **`Edit this page`** i den högra kolumnen för att gå till markeringskällfilen på GitHub.
 
    ![Redigera den här sidikonen](/help/assets/git_edit.png)
 
@@ -71,7 +71,7 @@ Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar 
 
 Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att logga ett problem.
 
-1. Om du ser ett problem med en del av innehållet klickar du på **`Log an Issue`** ikonen i den högra kolumnen.
+1. Om du ser ett problem med innehållet klickar du på ikonen **`Log an Issue`** i den högra kolumnen.
 
    ![](assets/git_log_issue.png)
 
@@ -91,9 +91,9 @@ Om du skickar in ett problem meddelas innehållsteamet för den här sidan direk
 
 Gränssnittet för GitHub-redigering anpassas till dina databasbehörigheter. Bilderna ovan gäller för medarbetare som inte har skrivbehörighet till måldatabasen. GitHub skapar automatiskt en gaffel av måldatabasen i ditt konto. Om du har skrivåtkomst till måldatabasen skapar GitHub en ny gren i målrapporten.
 
-Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har `master` grenen skyddad så att uppdateringar måste skickas som pull-begäranden.
+Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har grenen `master` skyddad så att uppdateringar måste skickas som pull-begäranden.
 
-Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du ger stora bidrag eller använder avancerade Git-funktioner rekommenderar vi att du [förser ombudet och arbetar lokalt](setup/full-workflow.md).
+Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du ger stora bidrag eller använder avancerade Git-funktioner rekommenderar vi att du [förser repoet och arbetar lokalt](setup/full-workflow.md).
 
 ## Ge feedback
 
