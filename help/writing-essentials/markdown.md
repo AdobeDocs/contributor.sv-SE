@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -176,6 +176,8 @@ Visas:
 
 ![Adobe ](assets/no-localize/adobe_standard_logo.png "LogoHover-text")
 
+**Obs!** För bilder som inte ska lokaliseras skapar du en separat  `do-not-localize` mapp i resursmappen. Vanligtvis placeras bilder utan text eller bilder som bara innehåller exempelinnehåll där. Detta tar bort&quot;brus&quot; från resursmappen och minskar antalet frågor.
+
 ### Kodblock
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -290,33 +292,44 @@ Visas:
 >* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 
-### DNL - lokalisera inte - och UICONTROL
+### UICONTROL och DNL
 
-I vissa fall måste vi flagga vissa avsnitt av innehållet i en artikel som enbart ska vara engelska.
-Ord, fraser och andra element måste deklareras till våra översättningssystem och skapar en möjlighet att hantera en kontrollerad lexikon.
+Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med maskinöversättning. Om hjälpen aldrig har lokaliserats behåller vi maskinöversättningen. Om hjälpinnehållet tidigare har lokaliserats fungerar maskinöversatt innehåll som platshållare medan innehållet håller på att översättas av människor.
 
-För ord eller fraser som inte ska lokaliseras använder du tillägget `[!DNL]` för att omsluta ordet eller avsnittet.
+**``**
 
-För element i användargränssnittet och menyer i en lösning använder vi tillägget ``.
+Under maskinöversättning kontrolleras objekt som är taggade med `` mot en lokaliseringsdatabas för korrekt översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
 **Exempel:**
 
-I [!DNL Adobe Target] kan du skapa testerna direkt på en [!DNL Target]-aktiverad sida.
+1. Gå till skärmen **[!UICONTROL Run Process]**.
+1. Välj **[!UICONTROL File > Print > Print All]** om du vill skriva ut alla filer på servern.
+1. Dialogrutan [!UICONTROL Processing Rules] visas.
 
 **Källa:**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**Exempel**
+**Obs!** Bland de tre taggningsalternativen är detta det viktigaste för att få hög kvalitet och det är obligatoriskt.
 
-Använd [!UICONTROL Visual Experience Composer] i [!DNL Target] för att skapa testet direkt på en sida.
+**`[!DNL]`**
+
+I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för maskinöversättningsmotorerna vad de ska behålla på engelska. De vanligaste är långa lösningsnamn som&quot;Adobe Analytics&quot;,&quot;Adobe Campaign&quot; och&quot;Adobe Target&quot;. Det kan dock finnas fall där vi måste tvinga motorn att använda engelska eftersom termen i fråga kan användas på ett specifikt eller allmänt sätt. Det mest uppenbara fallet är korta namn på lösningar som&quot;Analytics&quot;,&quot;Campaign&quot;,&quot;Target&quot; osv. Det skulle vara svårt för en maskin att förstå att det här är lösningens namn och inte allmänna termer. Taggen kan även användas för namn/funktioner från tredje part som alltid finns kvar på engelska eller för kortare textavsnitt, som fraser eller meningar, som måste vara på engelska.
+
+**Exempel:**
+
+* Med [!DNL Target] kan du skapa A/B-tester för att hitta det optimala
+* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. [!DNL Analytics] kan också hjälpa er med att rapportera så att ni enkelt kan sammanställa dessa data.
 
 **Källa:**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## Gotchas och felsökning
