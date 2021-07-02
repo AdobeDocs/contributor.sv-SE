@@ -1,14 +1,13 @@
 ---
 title: Använda Markdown för att skriva dokumentation
 description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
-translation-type: tm+mt
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
-
 
 # Använda Markdown för att skriva teknisk dokumentation
 
@@ -182,7 +181,7 @@ Visas:
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Använd bakåtmarkeringar ( \`) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradigt kodblock lägger du till tre bakåtfästingar (\`\`\`) före och efter kodblocket (kallas &quot;fenced code block&quot; i Markdown och bara en &quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: \`\`\`javascript
+Använd bakåttickningar (&amp;stämpel;grav;) ) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradskodblock lägger du till tre bakåtmarkeringar (&amp;grave;&amp;grave;) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: &amp;Klona;grav;&amp;grav;&amp;grav;javascript
 
 Exempel:
 
@@ -195,15 +194,6 @@ Visas:
 Detta är `inline code` i ett textstycke.
 
 Detta är ett avgränsat kodblock:
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-Visas:
 
 ```javascript
 function test() {
