@@ -1,49 +1,55 @@
 ---
-source-git-commit: cbffbc356b4d5a03f93ab319a932a6c4ef979b3e
-translation-type: tm+mt
+title: Adobes uppförandekod
+description: Adobe uppförandekod för att rapportera problem och skicka in redigeringsändringar
+exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
+source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 97%
 
 ---
+
 # Adobes uppförandekod
 
-## Vår redovisning
+## Vårt löfte
 
-För att främja en öppen och välkommen miljö garanterar vi att medverkande och underhållande personer engagerar sig i att delta i vårt projekt och vår community är en trakasserfri upplevelse för alla, oavsett ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personligt utseende, ras, religion eller sexuell identitet och läggning.
+För att främja en öppen och välkomnande miljö vill vi som medarbetare och ansvariga se till att engagemang och deltagande i vårt projekt och i vår community blir en upplevelse utan diskriminering för alla oavsett ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personlig stil, ras, religion eller sexuell identitet och läggning.
 
 ## Våra standarder
 
-Exempel på beteenden som bidrar till att skapa en positiv miljö är:
+Exempel på beteenden som bidrar till att skapa en positiv miljö är att:
 
-* Välkomstspråk och inkluderande språk
-* Olika åsikter och erfarenheter respekteras
-* Ta väl emot konstruktiv kritik
-* Fokusera på vad som är bäst för communityn
-* Visar empati mot andra communitymedlemmar
+* använda ett välkomnande och inkluderande språk
+* respektera olika synpunkter och erfarenheter
+* acceptera konstruktiv kritik på ett bra sätt
+* fokusera på vad som är bäst för communityn
+* visa empati mot andra communitymedlemmar
 
-Exempel på oacceptabla beteenden från deltagarnas sida är:
+Exempel på oacceptabla beteenden från deltagarnas sida är att:
 
-* Användning av sexualiserat språk eller foto och ovälkommen sexuell uppmärksamhet eller framsteg
-* Trollning, förolämpande/nedsättande kommentarer samt personliga eller politiska angrepp
-* Offentliga eller privata trakasserier
-* Publicera andras personuppgifter, t.ex. en fysisk eller elektronisk adress, utan uttryckligt tillstånd
-* Annat beteende som rimligen skulle kunna anses olämpligt i yrkesmässig miljö
+* använda ett sexualiserat språk eller liknande bilder och ej välkommen sexuell uppmärksamhet eller närmande
+* attackera med förolämpande/nedsättande kommentarer samt personliga eller politiska angrepp
+* trakassera både offentligt och privat
+* publicera andras personuppgifter såsom en fysisk eller elektronisk adress utan uttryckligt tillstånd
+* utföra annat beteende som rimligen kan anses olämpligt i en yrkesmässig miljö
 
 ## Vårt ansvar
 
-Projektledare ansvarar för att förtydliga standarderna för godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder som svar på eventuella fall av oacceptabla beteenden.
+Projektledare ansvarar för att förtydliga standarderna för ett godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder till följd av eventuella exempel på oacceptabla beteenden.
 
-Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor och andra bidrag som inte följer denna uppförandekod, eller att tillfälligt eller permanent förbjuda medverkande för andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
+Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor och andra bidrag som inte följer denna uppförandekod eller att tillfälligt eller permanent förbjuda medverkande på grund av andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
 
 ## Omfång
 
-Denna uppförandekod gäller både inom projektutrymmen och i offentliga utrymmen när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet, publicera via ett officiellt konto för sociala medier eller agera som utsedd representant vid ett online- eller offlineevenemang. Projektledarna kan definiera och förtydliga hur ett projekt ska visas.
+Denna uppförandekod gäller både inom projektutrymmen och i offentliga utrymmen när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress till projektet, publicera via ett officiellt konto i sociala medier eller agera som utsedd representant vid ett evenemang både online och offline. Projektledarna kan ytterligare definiera och förtydliga hur ett projekt ska representeras.
 
 ## Verkställande
 
-Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan rapporteras genom att kontakta projektgruppen på Grp-opensourceoffice@adobe.com. Alla klagomål kommer att granskas och undersökas och resultera i ett svar som bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektgruppen är skyldig att upprätthålla sekretess med avseende på rapportören för en incident.
-Ytterligare information om specifika verkställighetsregler kan bokföras separat.
+Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan rapporteras via projektgruppen på Grp-opensourceoffice@adobe.com. Alla klagomål granskas, undersöks och resulterar i ett svar som bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektteamet är skyldigt att upprätthålla sekretess vad gäller den som rapporterar om en incident.
+Ytterligare information om specifika verkställande policyer kan publiceras separat.
 
-Projektledare som inte följer eller tillämpar uppförandekoden i god tro kan drabbas av tillfälliga eller permanenta konsekvenser som fastställs av andra medlemmar i projektets ledarskap.
+Projektledare som i god tro inte följer eller tillämpar uppförandekoden kan drabbas av tillfälliga eller permanenta konsekvenser som fastställs av andra medlemmar i projektets ledarskap.
 
-## Attribut
+## Attribuering
 
-Denna uppförandekod har anpassats från [Contributor-konventionen](https://contributor-covenant.org), version 1.4, som finns på [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Denna uppförandekod har anpassats från [Contributor Covenant](https://contributor-covenant.org) version 1.4 som finns på [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
