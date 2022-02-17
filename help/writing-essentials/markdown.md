@@ -11,9 +11,9 @@ ht-degree: 1%
 
 # Använda Markdown för att skriva teknisk dokumentation
 
-Adobe tekniska dokumentationsartiklar är skrivna på ett lättviktsmarkeringsspråk med namnet [Markdown](https://daringfireball.net/projects/markdown/), som är både enkelt att läsa och lätt att lära sig.
+Adobe tekniska dokumentationsartiklar skrivs på ett lättviktsmarkeringsspråk som kallas [Markering](https://daringfireball.net/projects/markdown/), som är både lätt att läsa och lätt att lära sig.
 
-När vi lagrar Adobe Docs-innehåll i GitHub kan den använda en Markdown-version med namnet [GitHub Flavred Markdown (GFM)](https://help.github.com/categories/writing-on-github/), som har ytterligare funktioner för vanliga formateringsbehov. Dessutom har Adobe extended Markdown flera sätt att stödja vissa hjälprelaterade funktioner som anteckningar, tips och inbäddade videor.
+När vi lagrar Adobe Docs-innehåll i GitHub kan det använda en version av Markdown som kallas [GitHub Flavhad Markdown (GFM)](https://help.github.com/categories/writing-on-github/), som har ytterligare funktioner för vanliga formateringsbehov. Dessutom har Adobe extended Markdown flera sätt att stödja vissa hjälprelaterade funktioner som anteckningar, tips och inbäddade videor.
 
 ## Grunderna i markdown
 
@@ -33,7 +33,7 @@ Om du vill skapa en rubrik använder du ett hash-märke (#) i början av en rad:
 
 Ett stycke kräver ingen speciell syntax i Markdown.
 
-Om du vill formatera text som **fet** omger du den med två asterisker. Om du vill formatera text som *kursiv* omsluter du den med en enkel asterisk:
+Formatera text som **fet** omsluter du den med två asterisker. Formatera text som *kursiv* omsluter du den med en asterisk:
 
 ```markdown
    This text is **bold**.
@@ -49,7 +49,7 @@ This is not \*italicized\* type.
 
 ### Numrerade listor och punktlistor
 
-Om du vill skapa numrerade listor börjar du en rad med `1.` eller `1)`, men använder inte båda formaten i samma lista. Du behöver inte ange siffrorna. GitHub gör det åt dig.
+Om du vill skapa numrerade listor börjar du en rad med `1.` eller `1)`, men använd inte båda formaten i samma lista. Du behöver inte ange siffrorna. GitHub gör det åt dig.
 
 ```markdown
 1. This is step 1.
@@ -139,13 +139,13 @@ Enkla tabeller fungerar korrekt i Markdown. Tabeller som innehåller flera styck
 
 Mer information om hur du skapar tabeller finns i:
 
-* GitHub&#39;s [Organisera information med tabeller](https://help.github.com/articles/organizing-information-with-tables/)
-* Webbprogrammet [Markup Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-* [Konvertera HTML-tabeller till markering](https://jmalarcon.github.io/markdowntables/)
+* GitHub [Organisera information med tabeller](https://help.github.com/articles/organizing-information-with-tables/)
+* The [Generator för markeringstabeller](https://www.tablesgenerator.com/markdown_tables) webbprogram
+* [Konvertera HTML-tabeller till Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Länkar
 
-Markeringssyntaxen för en infogad länk består av `[link text]`-delen, som är den text som hyperlänkas, följt av `(file-name.md)`-delen, som är den URL eller det filnamn som länkas till:
+Markeringssyntaxen för en intern länk består av `[link text]` -delen, vilket är den text som ska hyperlänkas, följt av `(file-name.md)` -del, som är den URL eller det filnamn som länkas till:
 
 `[link text](file-name.md)`
 
@@ -163,7 +163,7 @@ Använd relativa länkar för länkar till artiklar (korsreferenser) i databasen
 See [Overview example article](../../overview.md)
 ```
 
-Mer information om hur du länkar finns i artikeln [Länkar](linking.md) i den här guiden för att länka syntax.
+Mer information om länkning finns i [Länkar](linking.md) artikel i den här guiden för att länka syntax.
 
 ### Bilder
 
@@ -173,15 +173,15 @@ Mer information om hur du länkar finns i artikeln [Länkar](linking.md) i den h
 
 Visas:
 
-![Adobe ](assets/no-localize/adobe_standard_logo.png "LogoHover-text")
+![Adobe logotyp](assets/no-localize/adobe_standard_logo.png "Hovringstext")
 
-**Obs!** För bilder som inte ska lokaliseras skapar du en separat  `do-not-localize` mapp i resursmappen. Vanligtvis placeras bilder utan text eller bilder som bara innehåller exempelinnehåll där. Detta tar bort&quot;brus&quot; från resursmappen och minskar antalet frågor.
+**OBS!** För bilder som inte ska lokaliseras skapar du en separat `do-not-localize` i resursmappen. Vanligtvis placeras bilder utan text eller bilder som bara innehåller exempelinnehåll där. Detta tar bort&quot;brus&quot; från resursmappen och minskar antalet frågor.
 
 ### Kodblock
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Använd bakåttickningar (&amp;stämpel;grav;) ) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradskodblock lägger du till tre bakåtmarkeringar (&amp;grave;&amp;grave;) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: &amp;Klona;grav;&amp;grav;&amp;grav;javascript
+Använd bakåttickningar (&amp;grav;) ) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradskodblock lägger du till tre bakåtfästingar (&amp;grave;&amp;grave;) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: &amp;grav; grav;&amp;grav;javascript
 
 Exempel:
 
@@ -191,7 +191,7 @@ This is `inline code` within a paragraph of text.
 
 Visas:
 
-Detta är `inline code` i ett textstycke.
+Det här är `inline code` i ett textstycke.
 
 Detta är ett avgränsat kodblock:
 
@@ -209,7 +209,7 @@ I Adobe-artiklar används standardmarkering för de flesta artikelformat, som st
 * Lokalisera inte
 * Komponentegenskaper, som att tilldela ett annat rubrik-ID till en rubrik
 
-Använd markeringsblockcitattecken ( > ) i början av varje rad för att knyta samman en utökad komponent, t.ex. en anteckning. Om du behöver använda underkomponenter i komponenter lägger du till en extra nivå med blockcitattecken (> >) för det underkomponentavsnittet. En NOTE i ett DONOTLOCALIZE-avsnitt ska till exempel börja med >    >.
+Använd markeringsblockcitattecken ( > ) i början av varje rad för att knyta samman en utökad komponent, t.ex. en anteckning. Om du behöver använda underkomponenter i komponenter lägger du till en extra nivå med blockcitattecken (> >) för det underkomponentavsnittet. En NOTE i ett DONOTLOCALIZE-avsnitt ska till exempel börja med > >.
 
 Vissa vanliga markeringselement som rubriker och kodblock innehåller utökade egenskaper. Om du behöver ändra standardegenskaperna lägger du till parametrarna inom franska klammerparenteser /{ /} efter komponenten. Utökade egenskaper beskrivs i sitt sammanhang.
 
@@ -267,7 +267,7 @@ Visas:
 
 ### Mer som detta
 
-Komponenten &quot;Mer som den här&quot; i AEM visas i slutet av en artikel. Här visas relaterade länkar. När artikeln återges kan den formateras på samma sätt som rubriker på nivå 2 (##) utan att läggas till i miniinnehållsförteckningen.
+Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Här visas relaterade länkar. När artikeln återges kan den formateras på samma sätt som rubriker på nivå 2 (##) utan att läggas till i miniinnehållsförteckningen.
 
 ```markdown
 >[!MORELIKETHIS]
@@ -288,13 +288,13 @@ Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med mask
 
 **``**
 
-Under maskinöversättning kontrolleras objekt som är taggade med `` mot en lokaliseringsdatabas för korrekt översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
+Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
 **Exempel:**
 
-1. Gå till skärmen **[!UICONTROL Run Process]**.
-1. Välj **[!UICONTROL File > Print > Print All]** om du vill skriva ut alla filer på servern.
-1. Dialogrutan [!UICONTROL Processing Rules] visas.
+1. Gå till **[!UICONTROL Run Process]** skärm.
+1. Välj **[!UICONTROL File > Print > Print All]** för att skriva ut alla filer på servern.
+1. The [!UICONTROL Processing Rules] visas.
 
 **Källa:**
 
@@ -304,7 +304,7 @@ Under maskinöversättning kontrolleras objekt som är taggade med `` mot en lok
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**Obs!** Bland de tre taggningsalternativen är detta det viktigaste för att få hög kvalitet och det är obligatoriskt.
+**OBS!** Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
 
 **`[!DNL]`**
 
@@ -312,7 +312,7 @@ I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för 
 
 **Exempel:**
 
-* Med [!DNL Target] kan du skapa A/B-tester för att hitta det optimala
+* Med [!DNL Target]kan du skapa A/B-tester för att hitta det optimala
 * Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. [!DNL Analytics] kan också hjälpa er med att rapportera så att ni enkelt kan sammanställa dessa data.
 
 **Källa:**
@@ -351,13 +351,13 @@ Här är kodningarna för de&quot;smarta&quot; versionerna av dessa skiljetecken
 
 ### Vinkelparenteser
 
-Om du använder vinkelparenteser i text (inte kod) i filen, till exempel för att ange en platshållare, måste du koda vinkelparenteserna manuellt. Annars tror Markdown att de är avsedda att vara en HTML-tagg.
+Om du använder vinkelparenteser i text (inte kod) i filen, till exempel för att ange en platshållare, måste du koda vinkelparenteserna manuellt. Annars tror Markdown att de ska vara en HTML-tagg.
 
-Koda till exempel `<script name>` som `&lt;script name&gt;`
+Koda till exempel `<script name>` as `&lt;script name&gt;`
 
 ### Förtexter
 
-et-tecken (&amp;) tillåts inte i titlar. Använd&quot;och&quot; i stället, eller använd kodningen `&amp;`.
+et-tecken (&amp;) tillåts inte i titlar. Använd&quot;och&quot; i stället eller använd `&amp;` kodning.
 
 ## Se även
 
