@@ -1,8 +1,7 @@
 ---
-git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.sv-SE
+git-repo: https://github.com/AdobeDocs/contributor.sv-SE
 cloud: Adobe
 index: true
-translation-type: tm+mt
 source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
 workflow-type: tm+mt
 source-wordcount: '69'
@@ -20,7 +19,7 @@ ht-degree: 1%
    + [Konfigurera en lokal Git-databas](setup/local-repo.md)
    + [Grundläggande om GitHub-dokumentation](setup/git-fundamentals.md)
    + [GitHub-arbetsflöde för större ändringar](setup/full-workflow.md)
-+ Skriver grundläggande {#writing-essentials}
++ Grundläggande skrivfunktioner {#writing-essentials}
    + [Använda markering](writing-essentials/markdown.md)
    + [Allmänna riktlinjer för skrivande](writing-essentials/general-writing-guidance.md)
    + [Länkar](writing-essentials/linking.md)
