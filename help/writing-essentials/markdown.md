@@ -1,10 +1,10 @@
 ---
 title: Använda Markdown för att skriva dokumentation
-description: den här artikeln innehåller grundläggande information och referensinformation för det markeringsspråk som används för att skriva artiklar.
+description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
+source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1500'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ Adobe tekniska dokumentationsartiklar skrivs på ett lättviktsmarkeringsspråk 
 När vi lagrar Adobe Docs-innehåll i GitHub kan det använda en version av Markdown som kallas [GitHub Flavhad Markdown (GFM)](https://help.github.com/categories/writing-on-github/), som har ytterligare funktioner för vanliga formateringsbehov. Dessutom har Adobe extended Markdown flera sätt att stödja vissa hjälprelaterade funktioner som anteckningar, tips och inbäddade videor.
 
 ## Grunderna i markdown
+
+I följande avsnitt beskrivs grunderna för hur du skapar i Markdown.
 
 ### Rubriker
 
