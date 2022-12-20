@@ -1,22 +1,23 @@
 ---
 title: Contributor guide for Adobe documentation
-seo-title: Översikt över Contributor-guiden för Adobe Experience Cloud tekniska dokumentation
+seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: I guiden beskrivs hur du kan bidra med förslag och tillägg till dokumentationswebbplatsen för Adobe.
-seo-description: I guiden beskrivs hur du kan bidra till den tekniska dokumentationen för [!UICONTROL Adobe Experience Cloud].
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
+exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
+source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
+# Contributor Guide for Adobe Documentation
 
-# Översikt över Contributor-handboken för Adobe-dokumentation
+I den här guiden beskrivs hur du kan bidra till Adobe Enterprise-hjälp på Experience League.
 
 ## Vad är samarbetsdokumentation?
 
-Den tekniska dokumentationen och aktiveringsinnehållet för Adobe Experience Cloud och andra Adobe Enterprise-produkter har gått över till en ny plattform. Den nya plattformen bygger på principer med öppen källkod som bygger på lösningarna Github, Markdown och Adobe Experience Cloud.
+Den tekniska dokumentationen och aktiveringsinnehållet för Adobe Experience Cloud och andra Adobe Enterprise-produkter bygger på principer med öppen källkod som använder GitHub-, Markdown- och Adobe Experience Cloud-lösningar.
 
 Denna modell med öppen källkod förbättrar innehållskvaliteten och kommunikationen mellan kunder, dokumentationsteam och produktteam. På varje sida kan du nu betygsätta innehållets användbarhet, logga problem och till och med lägga in förslag på innehåll i takt med att Git-förfrågningar skickas (PR). Dokumentationsteamen i Adobe övervakar dagligen bidragen och problemen och gör uppdateringar, förbättringar och justeringar efter behov.
 
@@ -24,9 +25,9 @@ Denna modell med öppen källkod förbättrar innehållskvaliteten och kommunika
 
 Som användare av det här materialet - oavsett om du är anställd, partner, kund eller till och med presumtiv kund - kan du välja att bidra till den här dokumentationen på flera enkla sätt.
 
-* betygsätta sidans hjälpmedel
-* logga ett problem mot en viss sida
-* till och med skicka in en snabb redigering till hela artiklar, komplett med resurser och kodexempel
+* Betygsätt sidans hjälpmedel
+* Logga ett problem mot en viss sida
+* Skicka in snabbredigeringar till hela artiklar, med resurser och kodexempel
 
 Den här guiden innehåller allt du behöver veta för att interagera med och bidra till materialuppsättningen.
 
@@ -44,7 +45,7 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 1. Signera [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) om det är godtagbart.
 
    Du behöver bara skicka ett Adobe CLA en gång.
-1. Klicka på ikonen **`Edit this page`** i den högra kolumnen för att gå till markeringskällfilen på GitHub.
+1. Klicka på **`Edit this page`** -ikonen i den högra kolumnen för att gå till markeringskällfilen på GitHub.
 
    ![Redigera den här sidikonen](/help/assets/git_edit.png)
 
@@ -56,14 +57,14 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 
    ![Placering av pennikonen](assets/edit-icon.png)
 
-1. Gör ändringarna i webbredigeraren. Du kan klicka på fliken **Förhandsgranska ändringar** för att kontrollera formateringen av ändringen.
-1. När du har gjort ändringarna bläddrar du längst ned på sidan. Ange en rubrik och beskrivning för din PR och klicka på **Föreslå filändring** enligt följande figur:
+1. Gör ändringarna i webbredigeraren. Du kan klicka på **Förhandsgranska ändringar** om du vill kontrollera formateringen av ändringen.
+1. När du har gjort ändringarna bläddrar du längst ned på sidan. Ange en rubrik och beskrivning för din PR och klicka på **Föreslå filändring** som i följande figur:
 
    ![föreslå ändringar](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **Information** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
+   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **Detaljer** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
 
 Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar och sammanfogar din begäran.
 
@@ -71,7 +72,7 @@ Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar 
 
 Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att logga ett problem.
 
-1. Om du ser ett problem med innehållet klickar du på ikonen **`Log an Issue`** i den högra kolumnen.
+1. Om du ser ett problem med en del av innehållet klickar du på **`Log an Issue`** -ikonen i den högra kolumnen.
 
    ![](assets/git_log_issue.png)
 
@@ -81,7 +82,7 @@ Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll 
 
    Om du klickar på den här länken kan du logga en snabbbiljett hos oss med hjälp av gränssnittet för Github Issue.
 
-1. URL:en för sidan med problemet fylls i automatiskt i beskrivningsfältet. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka nytt problem*.
+1. URL:en för sidan med problemet fylls i automatiskt i beskrivningsfältet. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka ny utgåva*.
 
    ![](assets/git_issue_example.png)
 
@@ -91,9 +92,9 @@ Om du skickar in ett problem meddelas innehållsteamet för den här sidan direk
 
 Gränssnittet för GitHub-redigering anpassas till dina databasbehörigheter. Bilderna ovan gäller för medarbetare som inte har skrivbehörighet till måldatabasen. GitHub skapar automatiskt en gaffel av måldatabasen i ditt konto. Om du har skrivåtkomst till måldatabasen skapar GitHub en ny gren i målrapporten.
 
-Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har grenen `master` skyddad så att uppdateringar måste skickas som pull-begäranden.
+Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har `master` filialskyddad så att uppdateringar måste skickas som pull-begäranden.
 
-Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du ger stora bidrag eller använder avancerade Git-funktioner rekommenderar vi att du [förser repoet och arbetar lokalt](setup/full-workflow.md).
+Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du gör stora insatser eller använder avancerade Git-funktioner rekommenderar vi att du [bearbeta repo och arbeta lokalt](setup/full-workflow.md).
 
 ## Ge feedback
 
