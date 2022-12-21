@@ -4,14 +4,14 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: I guiden beskrivs hur du kan bidra med förslag och tillägg till dokumentationswebbplatsen för Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
 
-# Contributor Guide for Adobe Documentation
+# Contributor Guide for Adobe documentation
 
 I den här guiden beskrivs hur du kan bidra till Adobe Enterprise-hjälp på Experience League.
 
@@ -45,7 +45,7 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 1. Signera [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) om det är godtagbart.
 
    Du behöver bara skicka ett Adobe CLA en gång.
-1. Klicka på **`Edit this page`** -ikonen i den högra kolumnen för att gå till markeringskällfilen på GitHub.
+1. Klicka **[!UICONTROL Edit this page]** i den högra kolumnen för att gå till markeringskällfilen på GitHub.
 
    ![Redigera den här sidikonen](/help/assets/git_edit.png)
 
@@ -57,42 +57,48 @@ Att göra snabba redigeringar är ett bra sätt att åtgärda små fel och utel�
 
    ![Placering av pennikonen](assets/edit-icon.png)
 
-1. Gör ändringarna i webbredigeraren. Du kan klicka på **Förhandsgranska ändringar** om du vill kontrollera formateringen av ändringen.
-1. När du har gjort ändringarna bläddrar du längst ned på sidan. Ange en rubrik och beskrivning för din PR och klicka på **Föreslå filändring** som i följande figur:
+1. Gör ändringarna i webbredigeraren.
+
+   Du kan klicka på **[!UICONTROL Preview changes]** om du vill kontrollera formateringen av ändringen.
+1. När du har gjort ändringarna bläddrar du längst ned på sidan.
+
+   Ange en rubrik och beskrivning för din PR och klicka sedan på **[!UICONTROL Propose file change]** som i följande figur:
 
    ![föreslå ändringar](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **Detaljer** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
+   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **[!UICONTROL Details]** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
 
-Det är allt som finns för det. Tack! Dokumentationsteamets medlemmar granskar och sammanfogar din begäran.
+Det är allt som finns för det. Dokumentationsteamets medlemmar granskar och sammanfogar din begäran. Tack!
 
 ## Logga ett problem
 
-Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att logga ett problem.
+Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att använda **[!UICONTROL Log an Issue]**.
 
-1. Om du ser ett problem med en del av innehållet klickar du på **`Log an Issue`** -ikonen i den högra kolumnen.
+1. Om du ser ett problem med en del av innehållet klickar du på **[!UICONTROL Log an Issue]** -ikonen i den högra kolumnen.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >Du måste logga in på ditt GitHub-konto eller skapa ett nytt konto för att kunna logga in på ett problem.
+   >Om du vill logga in på ett problem måste du logga in på ditt GitHub-konto eller skapa ett konto.
 
-   Om du klickar på den här länken kan du logga en snabbbiljett hos oss med hjälp av gränssnittet för Github Issue.
+   Om du klickar på den här länken kan du logga en snabbbiljett med Experience League med hjälp av gränssnittet för Github Issue.
 
-1. URL:en för sidan med problemet fylls i automatiskt i beskrivningsfältet. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka ny utgåva*.
+   URL:en för sidan med problemet fylls i automatiskt i beskrivningsfältet.
+
+1. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka ny utgåva*.
 
    ![](assets/git_issue_example.png)
 
-Om du skickar in ett problem meddelas innehållsteamet för den här sidan direkt som kan vidta åtgärder. När vi har uppdaterat innehållet får du veta det i gränssnittet för Github Issues och du får ett e-postmeddelande när det uppdateras eller stängs.
+Om du skickar in ett problem meddelas innehållsteamet för den här sidan, som kan åtgärda problemet. När vi har uppdaterat innehållet får du veta det i gränssnittet för Github Issues och du får ett e-postmeddelande när det uppdateras eller stängs.
 
 ## Förstå GitHub-behörigheter
 
 Gränssnittet för GitHub-redigering anpassas till dina databasbehörigheter. Bilderna ovan gäller för medarbetare som inte har skrivbehörighet till måldatabasen. GitHub skapar automatiskt en gaffel av måldatabasen i ditt konto. Om du har skrivåtkomst till måldatabasen skapar GitHub en ny gren i målrapporten.
 
-Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har `master` filialskyddad så att uppdateringar måste skickas som pull-begäranden.
+Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har `main` filialskyddad så att uppdateringar måste skickas som pull-begäranden.
 
 Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du gör stora insatser eller använder avancerade Git-funktioner rekommenderar vi att du [bearbeta repo och arbeta lokalt](setup/full-workflow.md).
 
@@ -100,4 +106,4 @@ Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ä
 
 Med en lösning som är lika stor som Adobe är dokumentationen alltid ett pågående arbete. Om du upptäcker fel bör du logga ett problem och informera oss om du har förslag på material. Berätta vilken information du sökte efter. Meddela oss om du inte hittar det du behöver, eller om du har problem med att slutföra din uppgift, var vänlig och tala om för oss hur vi kan hjälpa dig att lära dig våra lösningar.
 
-Tack från Collaborative Documentation-teamet och alla skribenter och innehållsproducenter i [!UICONTROL Adobe Experience Cloud].
+Tack från Collaborative Documentation-teamet och alla skribenter och innehållsproducenter i Experience League.
