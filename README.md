@@ -1,29 +1,31 @@
 ---
-source-git-commit: 859cb82d515fb277bc96333602386c07f8ed53b4
-translation-type: tm+mt
+source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 72%
 
 ---
-# Contribute-artikel
+# Artikel om att bidra
 
-Vi välkomnar bidrag från vår community och Adobe-anställda utanför dokumentationsteamen.
+Vi välkomnar bidrag till innehåll från våra medarbetare och Adobe utanför dokumentationsteamen.
 
-## Adobes uppförandekod för öppen källkod
+## Adobes uppförandekod gällande öppen källkod
 
 Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
 
-## Om dina bidrag till Adobe-innehåll
+## Om dina bidrag till innehåll hos Adobe
 
-Se [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Se [Guiden för bidragsgivare till Adobe Docs](https://docs.adobe.com/help/sv-SE/contributor/contributor-guide/introduction.html).
 
 Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
 
 ### Mindre ändringar eller förfrågningar
 
-Om du vill skicka en begäran klickar du på länken **Logga ett problem** i en artikel som öppnar ett problem i GitHub. Ange en titel och en beskrivning och klicka sedan på **Skicka nytt utgåva**.
+Klicka på **Logga ett problem** i en artikel som öppnar ett problem i GitHub. Ange en titel och en beskrivning och klicka sedan på **Skicka ny utgåva**.
 
-Om du vill begära mindre uppdateringar klickar du på länken **Redigera den här sidan** i en artikel som öppnar källartikeln i GitHub. Använd GitHub-gränssnittet för att göra uppdateringar. Mer information finns i den allmänna handboken [för](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Adobe Docs Contributor.
+Klicka på knappen **Redigera den här sidan** i en artikel som öppnar källartikeln i GitHub. Använd GitHub-gränssnittet för att göra uppdateringar. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://docs.adobe.com/help/sv-SE/contributor/contributor-guide/introduction.html).
 
-Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här rapporten omfattas av Adobes användarvillkor.
+Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
 ### Större ändringar eller nya artiklar från communitymedlemmar
 
@@ -33,28 +35,28 @@ Om du är en del av Adobes community och vill skapa en artikel eller skicka in s
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). You must complete the online form before we can review your pull request.
 -->
 
-### Viktiga förändringar från Adobes anställda
+### Stora förändringar från anställda hos Adobe
 
-Om du är teknikskribent, programchef eller utvecklare för en [!UICONTROL Adobe Experience Cloud] lösning, och det är ditt jobb att bidra till eller skriva tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`. Se [Intern Collaboration Guide](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
+Om du är teknikskribent, programchef eller utvecklare för en [!UICONTROL Adobe Experience Cloud] och det är ditt jobb att bidra till eller skriva tekniska artiklar, du bör använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`. Se [Handbok för internt samarbete](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Verktyg och inställningar
 
-Deltagare i communityn kan använda GitHub-gränssnittet för grundläggande redigering eller förgrena rapporten för att göra större insatser.
+Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
 
-Mer information finns i [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) .
+Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://docs.adobe.com/help/sv-SE/contributor/contributor-guide/introduction.html).
 
-## Så här använder du kod för att formatera ditt ämne
+## Så använder du markdown för att formatera ditt ämne
 
-Alla artiklar i den här databasen använder smaksatt GitHub-kod. Om du inte är van vid att markera något läser du:
+Alla artiklar i den här databasen använder GitHub-anpassad markdown. Om du inte är van vid markdown bör du läsa:
 
-* [Grunderna i markeringar](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Utskrivbart markeringsdatablad](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grunderna i markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Utskrivbar lathund för markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiketter
 
-I den offentliga databasen tilldelas automatiska etiketter för att hämta begäranden som hjälper oss att hantera arbetsflödet för pull-begäran och som hjälper dig att få reda på vad som pågår med din pull-begäran:
+I den offentliga databasen tilldelas pull-begäranden automatiska etiketter, vilket hjälper oss att hantera arbetsflödet med pull-begäranden och hjälper dig att ta reda på vad som pågår med din pull-begäran:
 
-* **Ändringen har skickats till författaren**: Författaren har underrättats om den väntande pull-begäran.
-* **klar för sammanslagning**: Redo för granskning av vårt team för granskning av pull-förfrågningar.
+* **Ändringen har skickats till författaren**: författaren har underrättats om den väntande pull-begäran.
+* **redo för sammanslagning**: redo för granskning av vårt team som granskar pull-begäranden.
