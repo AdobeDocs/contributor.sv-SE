@@ -2,9 +2,9 @@
 title: Arbetsflöde för GitHub-bidrag för större ändringar
 description: Lär dig hur du bidrar till Adobe dokumentation om Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Om du inte känner till Git- och GitHub-koncept som en databas eller en gren bö
 ## Arbetsflöde
 
 >[!IMPORTANT]
+>
 > Om du inte redan gjort det måste du slutföra stegen i [Inställningar](github-signup.md) -avsnitt.
 
 I det här arbetsflödet flyter ändringarna i en repetitiv cykel. Med början från enhetens lokala databas flödar de tillbaka till GitHub-gaffeln, in i GitHub-huvuddatabasen och tillbaka lokalt igen när du lägger in ändringar från andra medverkande.
