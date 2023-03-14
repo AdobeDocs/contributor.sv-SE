@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
+source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
@@ -86,11 +86,13 @@ Du kan även bädda in listor i listor och lägga till innehåll mellan listobje
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -106,11 +108,13 @@ Visas:
 1. Utför det här steget.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Se till att tabellen ser ut så här:
 
    | Hej | World |
    |---|---|
    | Hur | Är du? |
+
 1. Detta är det fjärde steget.
 
    >[!NOTE]
@@ -177,8 +181,6 @@ Visas:
 
 ![Adobe logotyp](assets/no-localize/adobe_standard_logo.png "Hovringstext")
 
-**OBS!** För bilder som inte ska lokaliseras skapar du en separat `do-not-localize` i resursmappen. Vanligtvis placeras bilder utan text eller bilder som bara innehåller exempelinnehåll där. Detta tar bort&quot;brus&quot; från resursmappen och minskar antalet frågor.
-
 ### Kodblock
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -208,10 +210,10 @@ I Adobe-artiklar används standardmarkering för de flesta artikelformat, som st
 
 * Anteckningsblock
 * Inbäddade videoklipp
-* Lokalisera inte
-* Komponentegenskaper, som att tilldela ett annat rubrik-ID till en rubrik
+* Översättningstaggar
+* Komponentegenskaper, som att tilldela ett annat rubrik-ID till en rubrik och ange en bildstorlek
 
-Använd markeringsblockcitattecken ( > ) i början av varje rad för att knyta samman en utökad komponent, t.ex. en anteckning. Om du behöver använda underkomponenter i komponenter lägger du till en extra nivå med blockcitattecken (> >) för det underkomponentavsnittet. En NOTE i ett DONOTLOCALIZE-avsnitt ska till exempel börja med > >.
+Använd markeringsblockcitattecken ( > ) i början av varje rad för att knyta samman en utökad komponent, t.ex. en anteckning.
 
 Vissa vanliga markeringselement som rubriker och kodblock innehåller utökade egenskaper. Om du behöver ändra standardegenskaperna lägger du till parametrarna inom franska klammerparenteser /{ /} efter komponenten. Utökade egenskaper beskrivs i sitt sammanhang.
 
@@ -229,7 +231,6 @@ Du kan välja mellan följande typer av anteckningsblock för att dra uppmärksa
 * `[!PREREQUISITES]`
 
 I allmänhet bör anteckningsblock användas sparsamt eftersom de kan vara störande. Även om de även har stöd för kodblock, bilder, listor och länkar kan du försöka göra anteckningsblocken enkla och enkla.
-
 
 ```markdown
 >[!NOTE]
@@ -273,6 +274,7 @@ Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Hä
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -280,6 +282,7 @@ Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Hä
 Visas:
 
 >[!MORELIKETHIS]
+>
 >* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
 >* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
@@ -334,7 +337,7 @@ Alt-text som innehåller understreck återges inte korrekt. I stället för att 
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-Det bästa sättet är att använda bindestreck (-) i stället för understreck (_) i filnamn.
+Vi föredrar att använda bindestreck (-) i stället för understreck (_) i filnamn.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
