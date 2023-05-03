@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
+source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -229,8 +229,13 @@ Du kan välja mellan följande typer av anteckningsblock för att dra uppmärksa
 * `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
+* `[!ERROR]`
+* `[!ADMINISTRATION]`
+* `[!INFO]`
+* `[!SUCCESS]`
 
 I allmänhet bör anteckningsblock användas sparsamt eftersom de kan vara störande. Även om de även har stöd för kodblock, bilder, listor och länkar kan du försöka göra anteckningsblocken enkla och enkla.
+
 
 ```markdown
 >[!NOTE]
@@ -238,23 +243,21 @@ I allmänhet bör anteckningsblock användas sparsamt eftersom de kan vara stör
 >This is a standard NOTE block.
 ```
 
-Visas:
-
->[!NOTE]
->
->Det här är ett vanligt NOTE-block.
-
 ```markdown
 >[!TIP]
 >
->This is a standard tip.
+>This is a standard TIP.
+```
+
+```markdown
+>[!IMPORTANT]
+>
+>This is an IMPORTANT note.
 ```
 
 Visas:
 
->[!TIP]
->
->Det här är ett standardtips.
+![Återgivna anteckningar](assets/notes-rendered.png)
 
 ### Videor
 
