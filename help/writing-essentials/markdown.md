@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -285,9 +285,8 @@ Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Hä
 Visas:
 
 >[!MORELIKETHIS]
->
->* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
+* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
+* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 
 ### UICONTROL och DNL
@@ -312,7 +311,8 @@ Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokalisering
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**OBS!** Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
+>[!NOTE]
+Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
 
 **`[!DNL]`**
 
