@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -275,12 +275,7 @@ Visas:
 
 Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Här visas relaterade länkar. När artikeln återges kan den formateras på samma sätt som rubriker på nivå 2 (##) utan att läggas till i miniinnehållsförteckningen.
 
-```markdown
->[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
-```
+![morelikethis syntax](assets/more-like-this-syntax.png)
 
 Visas:
 
