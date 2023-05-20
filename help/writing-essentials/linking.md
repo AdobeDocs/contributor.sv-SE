@@ -1,24 +1,23 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Använda länkar i dokumentation
-seo-title: Använda länkar i Adobe Git/Markdown-dokumentation
+seo-title: Using links in Adobe Git/Markdown documentation
 description: I den här artikeln finns anvisningar om hur du skapar länkar till innehåll och bilder.
-seo-description: I den här artikeln finns anvisningar om hur du skapar länkar till innehåll och bilder för Adobe-dokumentation.
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
+exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # Använda länkar i dokumentation
 
 I den här artikeln beskrivs användningen av hyperlänkar på dokumentationssidor. Länkar är enkla att lägga till i markeringar med några olika konventioner. Länkar pekar användare mot innehåll på samma sida, pekar ut mot andra angränsande sidor eller pekar på externa webbplatser och URL:er.
 
 >[!IMPORTANT]
->Alla länkar bör helst vara säkra länkar (`https` vs `http`) när målet stöder det (vilket den allra största parten bör göra).
+>Alla länkar bör helst vara säkra länkar (`https` vs `http`) när målet stöder det (vilket den övervägande majoriteten bör).
 
 ## Länka till URL-adresser
 
@@ -82,12 +81,12 @@ Du behöver inte skapa ankare. De genereras automatiskt vid publicering för all
 
 ## Länka till bilder
 
-Ett tips är att bilder och filer lagras i en `assets`-katalog på samma nivå som den Markdown-fil som länkar till den.
+Ett tips är att bilder och filer lagras i en `assets` på samma nivå som markeringsfilen som länkar till den.
 
-- En artikel länkar till en bild i underkatalogen `assets`:
+- En artikel länkar till en bild i `assets` underkatalog:
 
    `![alt text](assets/image-name.png)`
 
-- En artikel länkar till en bild i underkatalogen `assets/no-localize`:
+- En artikel länkar till en bild i `assets/no-localize` underkatalog:
 
    `![alt text](assets/no-localize/image-name.png)`

@@ -1,14 +1,13 @@
 ---
 title: Konfigurationssteg för GitHub-konto
 description: Stega igenom processen med att konfigurera konton för GitHub, som krävs för att bidra med innehåll till Adobe-dokumentationen.
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+exl-id: 62be9e5a-bbbc-4a78-82e9-24cf658e6d35
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
-
 
 # Inställning av GitHub-konto
 
@@ -24,7 +23,8 @@ Identifiera alla program i din GitHub-profil. Identifiering hjälper oss att ska
 
 ## Signera Contributor-licensavtalet (CLA)
 
-Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat licensavtal för bidragsgivare. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet.
+Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat licensavtal 
+för bidragsgivare. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet.
 
 1. Signera [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) om det går att acceptera.
 
@@ -32,6 +32,6 @@ Alla bidrag från tredje part till detta projekt måste åtföljas av ett undert
 
 >[!NOTE]
 >
->Om du är anställd i Adobe rekommenderar vi att du går till `https://git.corp.adobe.com/adobedocs`, loggar in med ditt LDAP-konto och letar upp det innehåll du vill redigera.
+>Om du är anställd i Adobe rekommenderar vi att du går till `https://git.corp.adobe.com/adobedocs`loggar du in med ditt LDAP-konto och letar upp det innehåll du vill redigera.
 >
 >Du kan sedan använda den mindre metoden (i webbläsaren) eller huvudmetoden (för att förfalska och klona lokalt) när du redigerar artiklar och skickar in pull-begäranden.

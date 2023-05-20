@@ -5,7 +5,7 @@ description: Läs mer om riktlinjer för redigering och redigering för externa 
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ Här finns enkla sätt att förbättra innehållsdesign, klarhet och läsbarhet.
 | Ändra _klicka_ till _gå till_ eller _välj_ | _Klicka_ är ett enhetsspecifikt ord (med tillgänglighetsproblem) och trenden är att gå ifrån det. Här är förslag på hur du kan ändra den:<ul><li>Navigering: _Gå till Arkiv > Skriv ut_.</li><li>Klicka: _Välj Arkiv > Skriv ut_ eller _Välj OK_. </li></ul>Se [Beskriva interaktioner med användargränssnittet](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) för fler idéer om det bästa ordet i olika situationer. |
 | Kör Acrolinx i VSC | Acrolinx söker efter stilproblem och grammatikproblem. Den kontrollerar URL:er, terminologi, stavning med mera. Det hjälper dig att förbättra klarheten och förbättra översättningen av Experience League innehåll. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Några fler metodtips och resurser:
 
