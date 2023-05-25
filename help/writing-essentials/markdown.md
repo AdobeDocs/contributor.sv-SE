@@ -185,7 +185,7 @@ Visas:
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Använd bakåtfästingar (`` ` ``) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradigt kodblock lägger du till tre baksidesskalor (` ``` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` ```javascript`
+Använd bakåtfästingar (`` ` ``) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradigt kodblock lägger du till tre baksidesskalor (` ` `` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` `` `javascript`
 
 Exempel:
 
@@ -280,17 +280,17 @@ Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Hä
 Visas:
 
 >[!MORELIKETHIS]
-* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
-* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
+>* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
+>* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 
 ### UICONTROL och DNL
 
 Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med maskinöversättning. Om hjälpen aldrig har lokaliserats behåller vi maskinöversättningen. Om hjälpinnehållet tidigare har lokaliserats fungerar maskinöversatt innehåll som platshållare medan innehållet håller på att översättas av människor.
 
-**``**
+**&grave;&grave;**
 
-Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
+Vid maskinöversättning taggades objekt med &grave;&grave; kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
 **Exempel:**
 
@@ -307,7 +307,7 @@ Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokalisering
 ```
 
 >[!NOTE]
-Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
+>Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
 
 **`[!DNL]`**
 
