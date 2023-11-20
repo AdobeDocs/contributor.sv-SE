@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
+source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1431'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ Visas:
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Markeringens inbyggda stöd för kodblock](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Använd bakåtfästingar (`` ` ``) för att skapa textbundna kodformat i ett stycke. Om du vill skapa ett specifikt flerradigt kodblock lägger du till tre baksidesskalor (` ` `` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` `` `javascript`
+Använd bakåtfästingar (`` ` ``) om du vill skapa infogade kodformat i ett stycke. Om du vill skapa ett specifikt flerradigt kodblock lägger du till tre baksidesskalor (` ``` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` ```javascript`
 
 Exempel:
 
@@ -280,34 +280,35 @@ Komponenten &quot;Mer som det här&quot; i AEM visas i slutet av en artikel. Hä
 Visas:
 
 >[!MORELIKETHIS]
->* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
-
+>
+* [Artikel 1](https://helpx.adobe.com/se/support/analytics.html)
+* [Artikel 2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 ### UICONTROL och DNL
 
 Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med maskinöversättning. Om hjälpen aldrig har lokaliserats behåller vi maskinöversättningen. Om hjälpinnehållet tidigare har lokaliserats fungerar maskinöversatt innehåll som platshållare medan innehållet håller på att översättas av människor.
 
-**&grave;&grave;**
+**``**
 
-Vid maskinöversättning taggades objekt med &grave;&grave; kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
+Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
 **Exempel:**
 
-1. Gå till **[!UICONTROL Run Process]** skärm.
-1. Välj **[!UICONTROL File > Print > Print All]** för att skriva ut alla filer på servern.
-1. The [!UICONTROL Processing Rules] visas.
+1. Gå till **Kör process** skärm.
+1. Välj **Fil** > **Skriv ut** > **Skriv ut alla** för att skriva ut alla filer på servern.
+1. Dialogrutan Bearbetningsregler visas.
 
 **Källa:**
 
 ```markdown
-1. Go to the **[!UICONTROL Run Process]** screen.
-1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-1. The [!UICONTROL Processing Rules] dialog box appears.
+1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
+1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
+1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
 
 >[!NOTE]
->Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
+>
+Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
 
 **`[!DNL]`**
 
@@ -315,14 +316,14 @@ I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för 
 
 **Exempel:**
 
-* Med [!DNL Target]kan du skapa A/B-tester för att hitta det optimala
-* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. [!DNL Analytics] kan också hjälpa er med att rapportera så att ni enkelt kan sammanställa dessa data.
+* Med Target kan du skapa A/B-tester för att hitta det optimala
+* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. Analyser kan också hjälpa er med att rapportera så att ni enkelt kan analysera dessa data.
 
 **Källa:**
 
 ```markdown
-* With [!DNL Target], you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
 
 ## Gotchas och felsökning
@@ -343,7 +344,7 @@ Vi föredrar att använda bindestreck (-) i stället för understreck (_) i filn
 
 ### Apostrofer och citattecken
 
-Om du kopierar text till en markeringsredigerare kan texten innehålla&quot;smarta&quot; (typografiska) apostrofer eller citattecken. Dessa måste kodas eller ändras till apostrofer eller citattecken. Annars får du udda tecken som detta när filen publiceras: Itâ€™s
+Om du kopierar text till en markeringsredigerare kan texten innehålla&quot;smarta&quot; (typografiska) apostrofer eller citattecken. Dessa måste kodas eller ändras till enkla apostrofer eller citattecken. Annars får du udda tecken som detta när filen publiceras: Itâ€™s
 
 Här är kodningarna för de&quot;smarta&quot; versionerna av dessa skiljetecken:
 
