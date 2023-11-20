@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
+source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -294,17 +294,15 @@ Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokalisering
 
 **Exempel på källinnehåll:**
 
-1. Gå till **&amp;brack;!UICONTROL Kör process&amp;rbrack;** skärm.
-1. Välj **&amp;lbrack;!UICONTROL File&amp;rbrack; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;rbrack;** för att skriva ut alla filer på servern.
-1. &amp;Brack;!UICONTROL Processing Rules&amp;brack; dialogruta visas.
+![exempeltext](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
 
 ```markdown
-1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
-1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
-1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 -->
 
@@ -316,17 +314,16 @@ Av de två taggningsalternativen är detta det viktigaste för att leverera hög
 
 I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för maskinöversättningsmotorerna vad de ska behålla på engelska. De vanligaste är långa lösningsnamn som&quot;Adobe Analytics&quot;,&quot;Adobe Campaign&quot; och&quot;Adobe Target&quot;. Det kan dock finnas fall där vi måste tvinga motorn att använda engelska eftersom termen i fråga kan användas på ett specifikt eller allmänt sätt. Det mest uppenbara fallet är korta namn på lösningar som&quot;Analytics&quot;,&quot;Campaign&quot;,&quot;Target&quot; osv. Det skulle vara svårt för en maskin att förstå att det här är lösningens namn och inte allmänna termer. Taggen kan även användas för namn/funktioner från tredje part som alltid finns kvar på engelska eller för kortare textavsnitt, som fraser eller meningar, som måste vara på engelska.
 
-**Exempel:**
+**Exempel på källinnehåll:**
 
-* Med &amp;lbrack;!DNL Target&amp;rbrack; kan du skapa A/B-tester för att hitta det optimala
-* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. &amp;lbrack;!DNL Analytics&amp;rbrack; kan även hjälpa dig med rapportering för att enkelt kunna sammanställa data.
+![exempel på dnl-text](assets/sample-dnl.png)
 
 <!--
 **Source:**
 
 ```markdown
-* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 -->
 
