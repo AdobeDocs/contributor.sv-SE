@@ -2,9 +2,9 @@
 title: Använda Markdown för att skriva dokumentation
 description: Lär dig grunderna i Markdown-redigering. Sök efter referensinformation för det markeringsspråk som används för att skriva artiklar.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -292,23 +292,25 @@ Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med mask
 
 Vid maskinöversättning taggades objekt med `` kontrolleras mot en lokaliseringsdatabas för lämplig översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
-**Exempel:**
+**Exempel på källinnehåll:**
 
-1. Gå till **Kör process** skärm.
-1. Välj **Fil** > **Skriv ut** > **Skriv ut alla** för att skriva ut alla filer på servern.
-1. Dialogrutan Bearbetningsregler visas.
+1. Gå till **&amp;brack;!UICONTROL Kör process&amp;rbrack;** skärm.
+1. Välj **&amp;lbrack;!UICONTROL File&amp;rbrack; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;rbrack;** för att skriva ut alla filer på servern.
+1. &amp;Brack;!UICONTROL Processing Rules&amp;brack; dialogruta visas.
 
-**Källa:**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-Av de tre taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
+Av de två taggningsalternativen är detta det viktigaste för att leverera hög kvalitet och är obligatoriskt.
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för 
 
 **Exempel:**
 
-* Med Target kan du skapa A/B-tester för att hitta det optimala
-* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. Analyser kan också hjälpa er med att rapportera så att ni enkelt kan analysera dessa data.
+* Med &amp;lbrack;!DNL Target&amp;rbrack; kan du skapa A/B-tester för att hitta det optimala
+* Adobe Analytics är en kraftfull lösning för att samla in analyser på er webbplats. &amp;lbrack;!DNL Analytics&amp;rbrack; kan även hjälpa dig med rapportering för att enkelt kunna sammanställa data.
 
-**Källa:**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## Gotchas och felsökning
 
