@@ -4,7 +4,7 @@ description: I den här artikeln förklaras en översikt över Git-, GitHub-data
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Som medverkande på dokumentationsmaterial från Adobe kan du interagera med fle
 
 Git är ett versionshanteringssystem med öppen källkod som möjliggör samarbete. Flera medarbetare kan arbeta med filer som finns i *databaser*.
 
-GitHub är en webbaserad värdtjänst för Git-databaser, till exempel sådana som används för att lagra [docs.adobe.com](https://docs.adobe.com) innehåll. För alla projekt är GitHub värd för huvuddatabasen, där medarbetare kan göra kopior för eget arbete.
+GitHub är en webbaserad värdtjänst för Git-databaser, till exempel sådana som används för att lagra [docs.adobe.com](https://docs.adobe.com) -innehåll. För alla projekt är GitHub värd för huvuddatabasen, där medarbetare kan göra kopior för eget arbete.
 
 ## Git
 
@@ -27,8 +27,8 @@ Git har ett unikt arbetsflöde och en unik terminologi för bidrag som stöder d
 
 Git använder också en nivåindelad struktur för att lagra och hantera innehåll för ett projekt:
 
-- *Databas*: Kallas även *repa*, det här är den högsta lagringsenheten. En databas innehåller en eller flera grenar.
-- *Gren*: Alla databaser innehåller en standardförgrening (som vanligtvis kallas&quot;main&quot;) och en eller flera förgreningar som ska sammanfogas tillbaka till huvudförgreningen. Huvudgrenen fungerar som den aktuella versionen och källan som innehållet publiceras från. Det är det överordnade objekt som alla andra grenar i databasen skapas från.
+- *Databas*: Detta är den högsta lagringsenheten och kallas även *repo*. En databas innehåller en eller flera grenar.
+- *Förgrening*: Alla databaser innehåller en standardförgrening (som vanligtvis kallas &quot;main&quot;) och en eller flera förgreningar som ska sammanfogas tillbaka till huvudgrenen. Huvudgrenen fungerar som den aktuella versionen och källan som innehållet publiceras från. Det är det överordnade objekt som alla andra grenar i databasen skapas från.
 
 Medarbetare interagerar med Git för att uppdatera och ändra databaser på både lokal nivå och GitHub-nivå:
 
@@ -43,11 +43,11 @@ Alla arbetsflöden börjar och slutar på GitHub-nivå, där huvuddatabasen för
 
 Ett projekts standard-/huvudgren fungerar som den aktuella versionen av innehållet för projektet. Innehållet i huvudgrenen - och grenar som skapas utifrån det - anpassas efter hur artikelämnena är organiserade. Underkataloger används för att ordna innehåll och bildresurser.
 
-Du kan oftast hitta en `help` katalog för databasens rot. Artikelkatalogen innehåller en uppsättning underkataloger. Artiklar i underkatalogerna formateras som markeringsfiler som använder en *.md* tillägg.
+Du kan vanligtvis hitta en `help`-huvudkatalog utanför databasens rot. Artikelkatalogen innehåller en uppsättning underkataloger. Artiklar i underkatalogerna formateras som markeringsfiler som använder ett *.md* -tillägg.
 
 I den här katalogens rot finns allmänna artiklar som relaterar till den övergripande tjänsten eller produkten. Och vanligtvis kan du hitta ytterligare en serie underkataloger som matchar funktionerna/tjänsterna eller vanliga scenarier.
 
-### Resurskatalog
+### Assets
 
 Kataloger med användarhandböcker innehåller `/assets` underkataloger för bildfiler som refereras inom en katalog.
 
@@ -67,6 +67,6 @@ For convenience, the root directory of each repository typically contains a Mark
 
 ## Dra in begäranden
 
-A *pull-förfrågan* är ett praktiskt sätt för en medarbetare att föreslå en uppsättning ändringar som ska tillämpas på standardgrenen. Förändringarna (kallas även *implementerar*) lagras i en medverkandes gren, så att GitHub först kan modellera effekten av *sammanfoga* till standardgrenen. En pull-begäran fungerar också som en mekanism för att ge medarbetaren feedback från en bygg-/valideringsprocess, granskaren av pull-begäran, för att lösa potentiella problem eller frågor innan ändringarna sammanfogas i standardgrenen.
+En *pull-begäran* är ett bekvämt sätt för en medarbetare att föreslå en uppsättning ändringar som ska tillämpas på standardgrenen. Ändringarna (kallas även *implementeringar*) lagras i en medarbetares gren, så GitHub kan först modellera effekten av *sammanfogning* av dem till standardgrenen. En pull-begäran fungerar också som en mekanism för att ge medarbetaren feedback från en bygg-/valideringsprocess, granskaren av pull-begäran, för att lösa potentiella problem eller frågor innan ändringarna sammanfogas i standardgrenen.
 
-Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi kommer att gå igenom detta i detalj senare, i [GitHub-arbetsflöde](local-repo.md) i den här guiden.
+Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi kommer att gå igenom detta i detalj senare, i avsnittet [GitHub-arbetsflöde](local-repo.md) i den här handboken.

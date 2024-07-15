@@ -17,7 +17,7 @@ ht-degree: 0%
 I den här artikeln beskrivs användningen av hyperlänkar på dokumentationssidor. Länkar är enkla att lägga till i markeringar med några olika konventioner. Länkar pekar användare mot innehåll på samma sida, pekar ut mot andra angränsande sidor eller pekar på externa webbplatser och URL:er.
 
 >[!IMPORTANT]
->Alla länkar bör helst vara säkra länkar (`https` vs `http`) när målet stöder det (vilket den övervägande majoriteten bör).
+>Alla länkar bör helst vara säkra länkar (`https` vs `http`) när målet stöder det (vilket de allra flesta bör).
 
 ## Länka till URL-adresser
 
@@ -35,27 +35,27 @@ Använd följande länksyntax för att skapa en textbunden länk från en artike
 
 - En artikel i en katalog länkar till en annan artikel i samma katalog:
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - En artikel länkar från en underkatalog till en artikel i rotkatalogen:
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - En artikel länkar från en underkatalog till en artikel i rotkatalogen:
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
 - En artikel i rotkatalogen länkar till en artikel i en underkatalog:
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - En artikel i en underkatalog länkar till en artikel i en annan underkatalog:
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - En artikel i en underkatalog länkar till en artikel i en annan underkatalog:
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## Länka till ankarpunkter
 
@@ -63,30 +63,30 @@ Du behöver inte skapa ankare. De genereras automatiskt vid publicering för all
 
 - Så här länkar du till en rubrik i samma artikel:
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - Så här länkar du till en ankarpunkt i en annan artikel i samma underkatalog:
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - Så här länkar du till ett ankare i en annan tjänstunderkatalog:
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## Länka till bilder
 
-Ett tips är att bilder och filer lagras i en `assets` på samma nivå som markeringsfilen som länkar till den.
+Det är en god vana att lagra bilder och filer i en `assets`-katalog på samma nivå som markeringsfilen som länkar till den.
 
-- En artikel länkar till en bild i `assets` underkatalog:
+- En artikel länkar till en bild i underkatalogen `assets`:
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
-- En artikel länkar till en bild i `assets/no-localize` underkatalog:
+- En artikel länkar till en bild i underkatalogen `assets/no-localize`:
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

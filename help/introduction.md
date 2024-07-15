@@ -6,7 +6,7 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Den här guiden innehåller allt du behöver veta för att interagera med och bi
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
-## Betygsätt sidans hjälpmedel och skriv en kommentar
+## Betygsätt hur hjälpsam sidan är och skriv en kommentar
 
 Några sekunder efter att du har öppnat en sida visas ett feedbackområde längst ned på sidan. Klicka uppåt eller nedåt för att ange om sidan var till hjälp.
 
@@ -52,11 +52,11 @@ Lämna gärna en kommentar för att lämna ytterligare feedback.
 
 Om du vill ge mer detaljerad feedback är det ett bra sätt att åtgärda små fel och utelämnanden i dokument genom att göra snabba ändringar. När du föreslår en redigering skickar du en pull-begäran (PR) för att skicka korrigeringen/förslaget till oss, och vi kan granska, godkänna och publicera förslaget.
 
-1. Signera [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) om det är godtagbart.
+1. Underteckna [Contributor-licensavtalet (CLA)](http://opensource.adobe.com/cla.html) om det går.
 
    Du behöver bara skicka ett Adobe CLA en gång.
 
-1. Klicka på i feedbackområdet som visas längst ned i artikeln **[!UICONTROL Detailed feedback options]** och klicka sedan på **[!UICONTROL Suggest an edit]** om du vill gå till källfilen för markering på GitHub.
+1. I det feedbackområde som visas längst ned i artikeln klickar du på **[!UICONTROL Detailed feedback options]** och sedan på **[!UICONTROL Suggest an edit]** för att gå till markeringskällfilen på GitHub.
 
    ![Redigera den här sidikonen](/help/assets/feedback-suggest-edit.png)
 
@@ -70,25 +70,25 @@ Om du vill ge mer detaljerad feedback är det ett bra sätt att åtgärda små f
 
 1. Gör ändringarna i webbredigeraren.
 
-   Du kan klicka på **[!UICONTROL Preview changes]** om du vill kontrollera formateringen av ändringen.
+   Du kan klicka på fliken **[!UICONTROL Preview changes]** för att kontrollera formateringen av ändringen.
 
 1. När du har gjort ändringarna bläddrar du längst ned på sidan.
 
-   Ange en rubrik och beskrivning för din PR och klicka sedan på **[!UICONTROL Propose file change]** som i följande figur:
+   Ange en rubrik och beskrivning för din PR och klicka sedan på **[!UICONTROL Propose file change]** så som visas i följande bild:
 
-   ![föreslå ändringar](assets/submit-pull-request.png)
+   ![föreslår din ändring](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Om du får ett meddelande om valideringsfel när du signerar ett CLA-avtal (Contributor License Agreement) klickar du på **[!UICONTROL Details]** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
+   >Om du får ett valideringsfelmeddelande om signering av ett CLA-avtal (Contributor License Agreement) klickar du på **[!UICONTROL Details]** för att öppna licensavtalet. Signera avtalet, om det accepteras. Stäng och öppna pull-begäran och fortsätt.
 
-Det är allt som finns för det. Dokumentationsteamets medlemmar granskar och sammanfogar din begäran. Tack!
+Det är allt som finns för det. Dokumentationsteamets medlemmar granskar och sammanfogar din pull-förfrågan. Tack!
 
 ## Rapportera ett problem
 
-Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll är att använda **[!UICONTROL Report an issue]**.
+Ett annat enkelt sätt att informera oss om ett problem med ett innehåll är att använda **[!UICONTROL Report an issue]**.
 
-1. Klicka på i feedbackområdet som visas längst ned i artikeln **[!UICONTROL Detailed feedback options]** och klicka sedan på **[!UICONTROL Report an issue]** om du vill gå till källfilen för markering på GitHub.
+1. I det feedbackområde som visas längst ned i artikeln klickar du på **[!UICONTROL Detailed feedback options]** och sedan på **[!UICONTROL Report an issue]** för att gå till markeringskällfilen på GitHub.
 
    ![Rapportera problem](assets/feedback-report-issue.png)
 
@@ -100,7 +100,7 @@ Ett annat enkelt sätt att informera oss om ett problem med ett visst innehåll 
 
    URL:en för sidan med problemet fylls i automatiskt i beskrivningsfältet.
 
-1. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka ny utgåva*.
+1. Fyll i rubriken, skriv en kort beskrivning av problemet och klicka sedan på *Skicka nytt problem*.
 
    ![](assets/git_issue_example.png)
 
@@ -110,9 +110,9 @@ Om du skickar in ett problem meddelas innehållsteamet för den här sidan, som 
 
 Gränssnittet för GitHub-redigering anpassas till dina databasbehörigheter. Bilderna ovan gäller för medarbetare som inte har skrivbehörighet till måldatabasen. GitHub skapar automatiskt en gaffel av måldatabasen i ditt konto. Om du har skrivåtkomst till måldatabasen skapar GitHub en ny gren i målrapporten.
 
-Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har `main` filialskyddad så att uppdateringar måste skickas som pull-begäranden.
+Adobe använder pull-begäranden för alla ändringar, även för medarbetare som har skrivbehörighet. De flesta databaser har grenen `main` skyddad så att uppdateringar måste skickas som pull-begäranden.
 
-Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du gör stora insatser eller använder avancerade Git-funktioner rekommenderar vi att du [bearbeta repo och arbeta lokalt](setup/full-workflow.md).
+Redigeringsfunktionen i webbläsaren passar bäst för smärre eller ovanliga ändringar. Om du ger stora bidrag eller använder avancerade Git-funktioner rekommenderar vi att du [förser ombudet och arbetar lokalt](setup/full-workflow.md).
 
 ## Ge feedback
 

@@ -4,7 +4,7 @@ description: Följ dessa riktlinjer när du bidrar till det här projektet.
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 95%
 
 ---
@@ -17,7 +17,8 @@ Nedan följer ett antal riktlinjer som du bör följa när du bidrar till projek
 
 ## Regler för uppförande
 
-Detta projekt följer Adobes [uppförandekod](code-of-conduct.md). Genom att delta förväntas du respektera den här koden. Du rapporterar oacceptabla beteenden till
+Detta projekt följer Adobes [uppförandekod](code-of-conduct.md). Genom att delta 
+förväntas du upprätthålla denna kod. Du rapporterar oacceptabla beteenden till
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Har du en fråga?
@@ -29,13 +30,16 @@ samförstånd om projektriktning och utfärda lösningar inom problemtrådar
 ## Licensavtal för bidragsgivare
 
 Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat licensavtal 
-för bidragsgivare. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. [Signera vårt licensavtal för bidragsgivare](http://opensource.adobe.com/cla.html). Du 
+för bidragsgivare. Detta ger Adobe tillstånd att återdistribuera dina bidrag 
+som en del av projektet. [Signera vårt licensavtal för bidragsgivare](http://opensource.adobe.com/cla.html). Du 
 behöver bara skicka ett licensavtal för bidragsgivare hos Adobe en gång, så om du redan har skickat ett tidigare 
 är du klar!
 
 ## Kodgranskningar
 
-Alla inskick ska ske som pull-begäranden och måste granskas av projektansvariga. Mer information om hur du skickar pull-begäranden finns i [dokumentationen för GitHub](https://help.github.com/articles/about-pull-requests/).
+Alla ansökningar lämnas in i form av pull-begäranden och måste granskas 
+av projektansvariga. Läs [Dokumentation för pull-begäranden från GitHub](https://help.github.com/articles/about-pull-requests/)
+om du vill ha mer information om hur du skickar pull-begäranden.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
