@@ -281,8 +281,8 @@ Visas:
 
 >[!MORELIKETHIS]
 >
->* [Artikel  1](https://helpx.adobe.com/support/analytics.html)
->* [Artikel  2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Artikel  1](https://helpx.adobe.com/se/support/analytics.html)
+>* [Artikel  2](https://helpx.adobe.com/se/support/audience-manager.html)
 
 ### UICONTROL och DNL
 
