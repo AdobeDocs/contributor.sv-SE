@@ -84,7 +84,7 @@ Att skriva en procedur (innehållstypen _aktivitet_) är inte en talang som vi �
 **Vägledning för steg**
 
 * En procedur är en serie steg. Ett steg är ett kort, numrerat, _enkelt_-kommando.
-* Starta varje steg med ett verb eller _To_-infinitivt (för att rikta läsaren till målet, som i _Aktivera **Fortsätt vara inloggad**_om du vill vara inloggad). Om ett steg har ett specifikt mål inom den övergripande proceduren anger du målet före åtgärden.
+* Starta varje steg med ett verb eller _To_-infinitivt (för att rikta läsaren till målet, som i _Aktivera **Fortsätt vara inloggad**&#x200B;_om du vill vara inloggad). Om ett steg har ett specifikt mål inom den övergripande proceduren anger du målet före åtgärden.
 * Om du har information om steget (en innehållstyp som heter _steginformation_) lägger du till det efter steget (indraget med steget) eller efter resursen (en skärmbild, video eller en lista med gränssnittsbeskrivningar).
 * Om ditt steg har två åtgärder (till exempel _Markera det här och sedan_) skriver du den som en enda kort mening.
 * Begränsa dina arbetsmoment till cirka sju till tio steg. Om du skapar mer än tio steg i en uppgift behöver du troligen dela upp den i två uppgifter. Använd din bästa bedömning här.

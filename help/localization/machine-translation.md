@@ -17,7 +17,7 @@ Adobe är införstådd med att man förlitar sig på att produktdokumentation, h
 
 Du kan läsa Adobe Experience Cloud produktdokumentation på de flesta språk.
 
-1. Navigera till produktdokumentation ](https://helpx.adobe.com/se/support/experience-cloud.html) för Experience Cloud [.
+1. Navigera till produktdokumentation [&#128279;](https://helpx.adobe.com/se/support/experience-cloud.html) för Experience Cloud .
 
 1. Bläddra efter en hjälpsida (till exempel [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/landing/home.html)).
 

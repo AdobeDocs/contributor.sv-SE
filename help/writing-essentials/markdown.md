@@ -185,7 +185,7 @@ Visas:
 
 Markdown stöder placeringen av kodblock både textbundet i en mening och som ett separat&quot;fenced&quot;-block mellan meningar. Mer information finns i [Stöd för kodblock för markeringar](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Använd bakåttickningar (`` ` ``) för att skapa infogade kodformat i ett stycke. Om du vill skapa ett specifikt flerradskodblock lägger du till tre bakåtfästingar (` ``` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` ```javascript`
+Använd bakåttickningar (`` ` ``) för att skapa infogade kodformat i ett stycke. Om du vill skapa ett specifikt flerradskodblock lägger du till tre bakåtfästingar (` ` `` `) före och efter kodblocket (kallas för ett&quot;fenced code block&quot; i Markdown och bara en&quot;code block&quot;-komponent i AEM). För avgränsade kodblock lägger du till kodspråket efter den första uppsättningen bakåtfästingar så att Markdown markerar kodsyntaxen korrekt. Exempel: ` `` `javascript`
 
 Exempel:
 
@@ -226,11 +226,11 @@ Du kan välja mellan följande typer av anteckningsblock för att dra uppmärksa
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -288,9 +288,9 @@ Visas:
 
 Allt vårt Markdown-hjälpinnehåll lokaliseras till att börja med med med maskinöversättning. Om hjälpen aldrig har lokaliserats behåller vi maskinöversättningen. Om hjälpinnehållet tidigare har lokaliserats fungerar maskinöversatt innehåll som platshållare medan innehållet håller på att översättas av människor.
 
-**``**
+**&grave;&grave;**
 
-Under maskinöversättning kontrolleras objekt som taggats med `` mot en lokaliseringsdatabas för korrekt översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
+Under maskinöversättning kontrolleras objekt som taggats med &grave;&grave; mot en lokaliseringsdatabas för korrekt översättning. Om användargränssnittet inte är lokaliserat kommer den här taggen att göra det möjligt för systemet att lämna användargränssnittsreferensen på engelska för det språket (dvs. Analysreferenser på italienska).
 
 **Exempel på källinnehåll:**
 
@@ -310,7 +310,7 @@ Under maskinöversättning kontrolleras objekt som taggats med `` mot en lokalis
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**`[!DNL]`**
+**``**
 
 I regel använder vi en&quot;Do not translate&quot;-lista för att tala om för maskinöversättningsmotorerna vad de ska behålla på engelska. De vanligaste är långa lösningsnamn som&quot;Adobe Analytics&quot;,&quot;Adobe Campaign&quot; och&quot;Adobe Target&quot;. Det kan dock finnas fall där vi måste tvinga motorn att använda engelska eftersom termen i fråga kan användas på ett specifikt eller allmänt sätt. Det mest uppenbara fallet är korta namn på lösningar som&quot;Analytics&quot;,&quot;Campaign&quot;,&quot;Target&quot; osv. Det skulle vara svårt för en maskin att förstå att det här är lösningens namn och inte allmänna termer. Taggen kan även användas för namn/funktioner från tredje part som alltid finns kvar på engelska eller för kortare textavsnitt, som fraser eller meningar, som måste vara på engelska.
 
