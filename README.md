@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
+source-git-commit: 540aa4213e4fe4cb15d065262d88095c977b7b5f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 69%
@@ -14,7 +14,6 @@ Vi välkomnar innehållsinsatser från våra medarbetare och Adobe utanför doku
 Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
 
 ## Om dina bidrag till innehåll hos Adobe
-
 
 Se [Guiden för bidragsgivare till Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
@@ -38,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Stora förändringar från anställda hos Adobe
 
-Om du är teknikskribent, programansvarig eller utvecklare från produktteamet för en [!UICONTROL Adobe Experience Cloud]-lösning, och det är ditt jobb att bidra till eller skapa tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`. Se den [interna Collaboration-guiden](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=sv-SE).
+Om du är teknikskribent, programansvarig eller utvecklare från produktteamet för en [!UICONTROL Adobe Experience Cloud]-lösning, och det är ditt jobb att bidra till eller skapa tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`. Se den [interna Collaboration-guiden](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
