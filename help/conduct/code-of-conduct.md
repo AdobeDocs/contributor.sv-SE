@@ -2,10 +2,10 @@
 title: Adobes uppförandekod
 description: Adobe uppförandekod för att rapportera problem och skicka in redigeringsändringar
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
-source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+source-git-commit: 9b3e4e2a7a007d4e417a5bf156d2290ea60b64ec
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
+source-wordcount: '441'
+ht-degree: 93%
 
 ---
 
@@ -65,8 +65,8 @@ hur ett projekt ska visas.
 
 ## Verkställande
 
-Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan 
-rapporteras genom att kontakta projektgruppen på Grp-opensourceoffice@adobe.com. Alla 
+Fall av missbruk, trakasserier eller annat oacceptabelt beteende kan vara
+rapporterat genom att kontakta projektteamet på <Grp-opensourceoffice@adobe.com>. Alla 
 klagomål granskas och utreds och resulterar i ett svar som 
 bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektgruppen är 
 skyldig att upprätthålla sekretess med avseende på rapportören för en incident.

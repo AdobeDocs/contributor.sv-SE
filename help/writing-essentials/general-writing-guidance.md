@@ -3,7 +3,7 @@ lastModified: 2018-06-28T00:00:00Z
 title: Riktlinjer för redigeringsformat för externa medarbetare
 description: Läs mer om riktlinjer för redigering och redigering för externa medarbetare på Experience League.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
-source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
+source-git-commit: 9b3e4e2a7a007d4e417a5bf156d2290ea60b64ec
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Tänk på följande när du skriver dokumentation.
 
 ## Bästa metoder för tekniskt skrivande{#writing-tips}
 
-Tekniskt skrivande, särskilt för programvarudokumentation, är en specialiserad bransch. Även den mest produktiva romantiken förenklas när du försöker skriva på ett tekniskt sätt - inte för att materialet är komplext eller tekniskt, utan för att det inte är lätt att göra komplex, teknisk information _enkel_. För att lyckas måste innehållet vara strukturellt konsekvent, skannerbart, återanvändbart och flöda genom publiceringsflödet utan struktur- och syntaxfel.
+Tekniskt skrivande, särskilt för programvarudokumentation, är en specialiserad bransch. Även den mest produktiva romantiken förenklas när du försöker skriva på ett tekniskt sätt - inte för att materialet är komplext eller tekniskt, utan för att det inte är lätt att göra komplex, teknisk information *enkel*. För att lyckas måste innehållet vara strukturellt konsekvent, skannerbart, återanvändbart och flöda genom publiceringsflödet utan struktur- och syntaxfel.
 
 I följande avsnitt beskrivs vanliga problem som nya skribenter måste bevaka:
 
@@ -38,17 +38,17 @@ I följande avsnitt beskrivs vanliga problem som nya skribenter måste bevaka:
 
 Om du har två rubriker utan text som skiljer dem åt, lägger du till text som saknas (för att infoga den andra ämnesrubriken). Du kan också ta bort en av rubrikerna. Den andra är antagligen onödig.
 
-_Översikt_ har till exempel ingen funktion här:
+*Översikt* har till exempel ingen funktion här:
 
 ![Dubbla rubriker](assets/headings-double.png)
 
-* Om den andra rubriken råkar vara _Översikt_ är den förmodligen inte längre nödvändig. Ditt H1-stycke och det första stycket fungerar som en konceptuell översikt över artikelns ämne.
+* Om den andra rubriken råkar vara *Översikt* är den förmodligen inte längre nödvändig. Ditt H1-stycke och det första stycket fungerar som en konceptuell översikt över artikelns ämne.
 
-* På samma sätt är fristående rubriker som _Översikt_ och _Introduktion_ inte användbara själva för SEO-syften. Namnge den produkt eller funktion som du presenterar. (Exempel: _Översikt över bortfallsrapporter_)
+* På samma sätt är fristående rubriker som *Översikt* och *Introduktion* inte användbara själva för SEO-syften. Namnge den produkt eller funktion som du presenterar. (Exempel: *Översikt över bortfallsrapporter*)
 
 ### Inkonsekventa korsreferensrubriker{#maps}
 
-Använd _Mer information_ för korsreferenslistor (eller kartor). Exempel:
+Använd *Mer information* för korsreferenslistor (eller kartor). Exempel:
 
 ![Korsreferenslista](assets/headings-more-info.png)
 
@@ -79,23 +79,23 @@ Det är svårt att motstå att lägga till citattecken runt ett ord eller en fra
 
 ### Rutiner{#steps}
 
-Att skriva en procedur (innehållstypen _aktivitet_) är inte en talang som vi är födda med. Att skapa en läsbar, tydlig procedur är en övning.
+Att skriva en procedur (innehållstypen *aktivitet*) är inte en talang som vi är födda med. Att skapa en läsbar, tydlig procedur är en övning.
 
 **Vägledning för steg**
 
-* En procedur är en serie steg. Ett steg är ett kort, numrerat, _enkelt_-kommando.
-* Starta varje steg med ett verb eller _To_-infinitivt (för att rikta läsaren till målet, som i _Aktivera **Fortsätt vara inloggad**&#x200B;_om du vill vara inloggad). Om ett steg har ett specifikt mål inom den övergripande proceduren anger du målet före åtgärden.
-* Om du har information om steget (en innehållstyp som heter _steginformation_) lägger du till det efter steget (indraget med steget) eller efter resursen (en skärmbild, video eller en lista med gränssnittsbeskrivningar).
-* Om ditt steg har två åtgärder (till exempel _Markera det här och sedan_) skriver du den som en enda kort mening.
+* En procedur är en serie steg. Ett steg är ett kort, numrerat, *enkelt*-kommando.
+* Starta varje steg med ett verb eller *To*-infinitivt (för att rikta läsaren till målet, som i *Aktivera **Fortsätt vara inloggad*** om du vill vara inloggad). Om ett steg har ett specifikt mål inom den övergripande proceduren anger du målet före åtgärden.
+* Om du har information om steget (en innehållstyp som kallas *steginformation*) lägger du till det efter steget (indraget med steget) eller efter resursen (en skärmbild, video eller en lista med gränssnittsbeskrivningar).
+* Om ditt steg har två åtgärder (till exempel *Markera det här och sedan*) skriver du den som en enda kort mening.
 * Begränsa dina arbetsmoment till cirka sju till tio steg. Om du skapar mer än tio steg i en uppgift behöver du troligen dela upp den i två uppgifter. Använd din bästa bedömning här.
 * Använd inte rubriker som steg i produktdokumentationen. (Undantag nedan för självstudiekurser.)
-* För flersidiga självstudiekurser kan du tillåta rubriker som steg. Numrera dem dock inte. Rätta till det här: _Steg 1:_, _Steg 2:_ osv.
+* För flersidiga självstudiekurser kan du tillåta rubriker som steg. Numrera dem dock inte. Rätta till det här: *Steg 1:*, *Steg 2:* osv.
 
 **Exempelprocedur**
 
 Här följer en välstrukturerad procedur för inloggning på Adobe:
 
-Så här loggar du in på Adobe:
+Logga in på Adobe:
 
 1. På `Adobe.com` väljer du **Experience Cloud**.
 1. Välj **Logga in**.
@@ -120,29 +120,29 @@ Ovanstående innehållsförteckning är ett bra exempel eftersom:
 
 ## Metadata för titel och beskrivning{#metadata}
 
-Metadata för _Rubrik_ och _description_ är viktiga för SEO, innehållsidentifiering och innehållskvalitetspoäng på Experience League.
+Metadata för *Rubrik* och *description* är viktiga för SEO, innehållsidentifiering och innehållskvalitetspoäng på Experience League.
 
 Här är några exempel på titlar och beskrivningar:
 
 **Beskrivningar för konceptartiklar**
 
-* _Läs om segment i Adobe Analytics. Få hjälp med att konfigurera segmenteringspanelen i en arbetsyta._
-* _Hitta hjälp om hur du använder segment i en sidvisningsrapport i Adobe Analytics._
+* *Läs om segment i Adobe Analytics. Få hjälp med att konfigurera segmenteringspanelen i en arbetsyta.*
+* *Hitta hjälp om hur du använder segment i en sidvisningsrapport i Adobe Analytics.*
 
 **Beskrivningar för procedur-/uppgiftsartiklar**
 
-* _Lär dig hur du skapar ett segment i Adobe Analytics._
-* _Skapa ett segment i Adobe Analytics. Lär dig hur du väljer, konfigurerar och kör en rapport baserat på det segment du skapar._
+* *Lär dig hur du skapar ett segment i Adobe Analytics.*
+* *Skapa ett segment i Adobe Analytics. Lär dig hur du väljer, konfigurerar och kör en rapport baserat på det segment du skapar.*
 
 Vilken du använder beror på artikelns storlek och omfattning.
 
 **Titel för en konceptartikel**
 
-* _Segment i sidvyrapporter_
+* *Segment i sidvyrapporter*
 
 **Titel för en procedur/uppgiftsartikel**
 
-* _Skapa ett segment för en sidvisningsrapport_
+* *Skapa ett segment för en sidvisningsrapport*
 
 (Kom ihåg att pipe och product name läggs till automatiskt i titlar.)
 
@@ -157,12 +157,10 @@ Här finns enkla sätt att förbättra innehållsdesign, klarhet och läsbarhet.
 | Undvik svaga, kanylfria annonser | *Mycket*, *extremt*, *otroligt*... <p>Adverbs är extra ord som inte ger någon större betydelse om du använder tydliga och exakta verb, klausuler och adjektiv. |
 | Använd starka verb för titlar och [innehållsförteckningsposter](#using-toc) | Exempel:<p>**Svag:** *Skapa och hantera egenskaper* <p>**Stark:** *Skapa och hantera egenskaper* |
 | Använd mening [inledande versal](https://docs.microsoft.com/en-us/style-guide/capitalization) | Använd inte versaler när du är osäker. Använd inledande versal i mening i rubriker. Använd inledande versal i ord och det första ordet efter kolon. I procedurer ska du matcha versaler som visas i gränssnittet. |
-| Lär dig dessa små tips för tydlighet | <ul><li>Undvik *För att kunna* (ingen betydelse läggs till). Allt du behöver är *att.*</li><li>Undvik *användning.* Det kan låta mer tekniskt, men det är det inte. *Använd* innebär *att du ska kunna använda, särskilt om något som inte var avsett för ändamålet men som ska användas* är bra.</li><li>Undvik semikolon: Använd en punkt i stället och börja en ny mening. Halvkolon gör det onödigt komplext.</li><li>Kolon: Använd kolon för att infoga en lista. Använd kolon sparsamt i meningar. Inled det första ordet med versal efter ett kolon i en mening.</li><li>Använd kommatecknet Oxford (tre kommatecken i en lista).</li><li>Håll meningens längd under 39 ord.</li><li>Navigering: använd _gå till_ eller _navigera till_.</li><li>Undvik rå URL-text (använd användarvänlig länktext) såvida inte sökvägen visas som viktig information.</li></ul> |
+| Lär dig dessa små tips för tydlighet | <ul><li>Undvik *För att kunna* (ingen betydelse läggs till). Allt du behöver är *att.*</li><li>Undvik *användning.* Det kan låta mer tekniskt, men det är det inte. *Använd* innebär *att du ska kunna använda, särskilt om något som inte var avsett för ändamålet men som ska användas* är bra.</li><li>Undvik semikolon: Använd en punkt i stället och börja en ny mening. Halvkolon gör det onödigt komplext.</li><li>Kolon: Använd kolon för att infoga en lista. Använd kolon sparsamt i meningar. Inled det första ordet med versal efter ett kolon i en mening.</li><li>Använd kommatecknet Oxford (tre kommatecken i en lista).</li><li>Håll meningens längd under 39 ord.</li><li>Navigering: använd *gå till* eller *navigera till*.</li><li>Undvik rå URL-text (använd användarvänlig länktext) såvida inte sökvägen visas som viktig information.</li></ul> |
 | Använda stavningskontroll i VSC | Installera kodstavningskontroll (tillägg) i Visual Studio-kod. |
-| Ändra _klicka_ till _gå till_ eller _välj_ | _Klicka_ är ett enhetsspecifikt ord (med tillgänglighetsproblem) och trenden är att gå bort från det. Här är förslag på hur du kan ändra den:<ul><li>Navigering: _Gå till Arkiv > Skriv ut_.</li><li>Klicka: _Välj Arkiv > Skriv ut_ eller _Välj OK_. </li></ul>Se [Beskriva interaktioner med användargränssnittet](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) om du vill ha mer information om det bästa ordvalet i olika situationer. |
-| Kör Acrolinx i VSC | Acrolinx söker efter stilproblem och grammatikproblem. Den kontrollerar URL:er, terminologi, stavning med mera. Det hjälper dig att förbättra klarheten och förbättra översättningen av Experience League innehåll. |
-
-{style="table-layout:auto"}
+| Ändra *klicka* till *gå till* eller *välj* | *Klicka* är ett enhetsspecifikt ord (med tillgänglighetsproblem) och trenden är att gå bort från det. Här är förslag på hur du kan ändra den:<ul><li>Navigering: *Gå till Arkiv > Skriv ut*.</li><li>Klicka: *Välj Arkiv > Skriv ut* eller *Välj OK*. </li></ul>Se [Beskriva interaktioner med användargränssnittet](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) om du vill ha mer information om det bästa ordvalet i olika situationer. |
+| Kör Acrolinx i VSC | Acrolinx söker efter stilproblem och grammatikproblem. Den kontrollerar URL:er, terminologi, stavning med mera. Det hjälper dig att förbättra tydligheten och översättningen av Experience League-innehåll. |
 
 Några fler metodtips och resurser:
 
@@ -188,7 +186,7 @@ Du behöver inte bekymra dig om din produkt är lokaliserad eller om de språk s
 
 * `DNL`
 
-  DNL betyder att _inte lokaliserar_. Du använder det bara för varumärken som tillhör Adobe och alla måste vara på engelska.
+  DNL betyder att *inte lokaliserar*. Du använder det bara för varumärken som tillhör Adobe produktnamn, som alla måste vara på engelska.
 
   Exempel på syntax: `[!DNL Adobe Campaign]` eller `[!DNL Workfront]`
 
@@ -206,7 +204,7 @@ Du behöver inte bekymra dig om din produkt är lokaliserad eller om de språk s
 
 ### Använda Adobe i produktnamn{#product-names}
 
-För företagsidentitet inkluderar vi vanligtvis _Adobe_ i den första referensen för en produkt på guidenivå. Beroende på utrymmet kan du släppa Adobe i en rubrik, men den första referensen i brödtexten ska då innehålla det fullständiga namnet. Vissa produkter, till exempel _Adobe Audition_ och _Adobe Premiere Pro_, kräver att Adobe används som första eller mest framträdande referens i varje säkerhetsdel eftersom det är en del av det juridiska, varumärkesskyddade namnet.
+För företagsidentitet inkluderar vi vanligtvis *Adobe* i den första referensen för en produkt på guidenivå. Beroende på utrymmet kan du släppa Adobe i en rubrik, men den första referensen i brödtexten bör innehålla det fullständiga namnet. Vissa produkter, till exempel *Adobe Audition* och *Adobe Premiere Pro*, kräver att Adobe används som första eller mest framträdande referens i varje säkerhetsdel eftersom det är en del av det juridiska varumärkesnamnet.
 
 ## Första stycket{#firstparas}
 
@@ -214,23 +212,23 @@ Det första stycket ska definiera ämnet och beskriva vad läsaren lär sig av a
 
 Exempel första stycket (begrepp):
 
-_Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Adobe hanterar översättningen av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till Experience Cloud._
+*Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Adobe målgruppstjänst hanterar översättningen av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till Experience Cloud.*
 
 Exempel på första stycket (uppgift):
 
-_Skapa kundattributkällan (CSV- och FIN-filer) och överför data. Du kan aktivera datakällan när du är klar. När datakällan är aktiv delar du attributdata till Analytics och Target._
+*Skapa kundattributkällan (CSV- och FIN-filer) och överför data. Du kan aktivera datakällan när du är klar. När datakällan är aktiv delar du attributdata till Analytics och Target.*
 
 ### SEO-tips för första stycken{#seo}
 
 * Inkludera söktermer i första stycken.
 * Använd termer som används av läsare.
-* Inkludera synonymer och vid behov tidigare användning av termer. &quot;Experience Cloud ID-tjänsten (ECID), som tidigare kallades _besökar-ID_ eller som akronymer som MID, MCVID, ger till exempel ett universellt, beständigt ID som identifierar besökare.&quot;
+* Inkludera synonymer och vid behov tidigare användning av termer. &quot;Experience Cloud ID-tjänsten (ECID), som tidigare kallades *besökar-ID* eller som akronymer som MID, MCVID, ger till exempel ett universellt, beständigt ID som identifierar besökare.&quot;
 * Inkludera SEO-termer i länkar.
 * Undvik att placera viktiga termer i komplexa tabeller. Komplexa tabeller ger inte tillförlitliga sökresultat. Texten i bilderna söks inte igenom. Bildtexter söks igenom.
 
 ## Versaler{#capitalization}
 
-* I formatet Adobe används inledande versal i mening för alla titlar, rubriker, underrubriker och sidnavigeringselement.
+* I Adobe-format används inledande versal i mening för alla titlar, rubriker, underrubriker och sidnavigeringselement.
 * Alla ord är gemener utom det första ordet och de rätta orden, till exempel namnen på varumärken, lösningar och tjänster.
 * Matcha skiftläget i produktnamnen för verktyg, alternativ, menyalternativ, dialogrutor och fält.
 
